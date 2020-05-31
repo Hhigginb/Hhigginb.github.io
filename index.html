@@ -41,10 +41,10 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
     <h1><b>My Portfolio</b></h1>
     <div class="w3-section w3-bottombar w3-padding-16">
       <span class="w3-margin-right">Filter:</span> 
-      <button class="w3-button w3-black">ALL</button>
-      <button class="w3-button w3-white"><i class="fa fa-diamond w3-margin-right"></i>Engineering</button>
-      <button class="w3-button w3-white w3-hide-small"><i class="fa fa-photo w3-margin-right"></i>Art</button>
-      <button class="w3-button w3-white w3-hide-small"><i class="fa fa-map-pin w3-margin-right"></i>Writing</button>
+      <button class="w3-button w3-black" onclick="filterSelection('all')">ALL</button>
+      <button class="w3-button w3-white" onclick="filterSelection('engineering')"><i class="fa fa-gears w3-margin-right"></i>Engineering</button>
+      <button class="w3-button w3-white w3-hide-small" onclick="filterSelection('art')"><i class="fa fa-photo w3-margin-right"></i>Art</button>
+      <button class="w3-button w3-white w3-hide-small" onclick="filterSelection('writing')"><i class="fa fa-pencil w3-margin-right"></i>Writing</button>
     </div>
     </div>
   </header>
@@ -52,48 +52,44 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
   
   <!-- First Photo Grid-->
   <div class="w3-row-padding">
-    <div class="w3-third w3-container w3-margin-bottom">
+    <div class="w3-third w3-container w3-margin-bottom filterDiv engineering">
       <img src="luna1a.jpeg" alt="Luna" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
       <div class="w3-container w3-white">
         <p><b>Lunar Rover</b></p>
       </div>
     </div>
-    <div class="w3-third w3-container w3-margin-bottom">
+    <div class="w3-third w3-container w3-margin-bottom filterDiv engineering">
       <img src="treadmill.JPG" alt="Rat Treadmill" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
       <div class="w3-container w3-white">
         <p><b>Rat Treadmill</b></p>
       </div>
     </div>
-    <div class="w3-third w3-container">
-      <img src="/w3images/nature.jpg" alt="Norway" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+    <div class="w3-third w3-container filterDiv engineering">
+      <img src="mirror.JPG" alt="Mirror" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
       <div class="w3-container w3-white">
-        <p><b>Lorem Ipsum</b></p>
-        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+        <p><b>Mirror</b></p>
       </div>
     </div>
   </div>
   
   <!-- Second Photo Grid-->
   <div class="w3-row-padding">
-    <div class="w3-third w3-container w3-margin-bottom">
-      <img src="/w3images/p1.jpg" alt="Norway" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+    <div class="w3-third w3-container w3-margin-bottom filterDiv engineering">
+      <img src="turtle.JPG" alt="Turtle" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
       <div class="w3-container w3-white">
-        <p><b>Lorem Ipsum</b></p>
-        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+        <p><b>Turtle</b></p>
       </div>
     </div>
-    <div class="w3-third w3-container w3-margin-bottom">
-      <img src="/w3images/p2.jpg" alt="Norway" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+    <div class="w3-third w3-container w3-margin-bottom filterDiv art">
+      <img src="redpanda.JPG" alt="Red Panda" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
       <div class="w3-container w3-white">
-        <p><b>Lorem Ipsum</b></p>
-        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+        <p><b>Red Panda</b></p>
       </div>
     </div>
-    <div class="w3-third w3-container">
-      <img src="/w3images/p3.jpg" alt="Norway" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+    <div class="w3-third w3-container filterDiv engineering">
+      <img src="seaperch.JPG" alt="Sea Perch" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
       <div class="w3-container w3-white">
-        <p><b>Lorem Ipsum</b></p>
-        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+        <p><b>Sea Perch</b></p>
       </div>
     </div>
   </div>
@@ -317,6 +313,56 @@ function w3_open() {
 function w3_close() {
     document.getElementById("mySidebar").style.display = "none";
     document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("filterDiv");
+  if (c == "all") c = "";
+  // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+// Show filtered elements
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {
+      element.className += " " + arr2[i];
+    }
+  }
+}
+
+// Hide elements that are not selected
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+// Add active class to the current control button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
 }
 </script>
 
