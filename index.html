@@ -8,8 +8,48 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
-</style>
 <body class="w3-light-grey w3-content" style="max-width:1600px">
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.row {
+  margin: 10px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  display: none; /* Hide all elements by default */
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+</style>
+<body>
 
 <!-- Sidebar/menu -->
 <nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
@@ -49,49 +89,50 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
     </div>
   </header>
 
-  
   <!-- First Photo Grid-->
-  <div class="w3-row-padding">
-    <div class="w3-third w3-container w3-margin-bottom engineering">
-      <img src="luna1a.jpeg" alt="Luna" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+  <div id = "photos" class = "w3-container">
+  <div class="row">
+    <div class="column engineering">
       <div class="w3-container w3-white">
-        <p><b>Lunar Rover</b></p>
+      	<img src="luna1a.jpeg" alt="Luna" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+        	<p><b>Lunar Rover</b></p>
       </div>
     </div>
-    <div class="w3-third w3-container w3-margin-bottom engineering">
+    <div class="column w3-third w3-container w3-margin-bottom engineering">
       <img src="treadmill.JPG" alt="Rat Treadmill" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
       <div class="w3-container w3-white">
         <p><b>Rat Treadmill</b></p>
       </div>
     </div>
-    <div class="w3-third w3-container engineering">
+    <div class="column w3-third w3-container w3-margin-bottom art">
       <img src="mirror.JPG" alt="Mirror" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
       <div class="w3-container w3-white">
         <p><b>Mirror</b></p>
       </div>
     </div>
   </div>
-  
+
   <!-- Second Photo Grid-->
-  <div class="w3-row-padding">
-    <div class="w3-third w3-container w3-margin-bottom engineering">
+  <div class="row">
+    <div class="column w3-third w3-container w3-margin-bottom engineering">
       <img src="turtle.JPG" alt="Turtle" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
       <div class="w3-container w3-white">
         <p><b>Turtle</b></p>
       </div>
     </div>
-    <div class="w3-third w3-container w3-margin-bottom art">
+    <div class="column w3-third w3-container w3-margin-bottom art">
       <img src="redpanda.JPG" alt="Red Panda" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
       <div class="w3-container w3-white">
         <p><b>Red Panda</b></p>
       </div>
     </div>
-    <div class="w3-third w3-container engineering">
+    <div class="column w3-third w3-container engineering">
       <img src="seaperch.JPG" alt="Sea Perch" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
       <div class="w3-container w3-white">
         <p><b>Sea Perch</b></p>
       </div>
     </div>
+  </div>
   </div>
 
   <!-- Modal -->
@@ -297,68 +338,49 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
 
   </div>
   </footer>
-  
-  <div class="w3-black w3-center w3-padding-24">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></div>
 
 <!-- End page content -->
 </div>
 
 <script>
-// Script to open and close sidebar
-function w3_open() {
-    document.getElementById("mySidebar").style.display = "block";
-    document.getElementById("myOverlay").style.display = "block";
-}
- 
-function w3_close() {
-    document.getElementById("mySidebar").style.display = "none";
-    document.getElementById("myOverlay").style.display = "none";
-}
-</script>
-
-<script>
 filterSelection("all")
 function filterSelection(c) {
   var x, i;
-  x = document.getElementsByClassName("filterDiv");
+  x = document.getElementsByClassName("column");
   if (c == "all") c = "";
-  // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
   for (i = 0; i < x.length; i++) {
     w3RemoveClass(x[i], "show");
     if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
   }
 }
 
-// Show filtered elements
 function w3AddClass(element, name) {
   var i, arr1, arr2;
   arr1 = element.className.split(" ");
   arr2 = name.split(" ");
   for (i = 0; i < arr2.length; i++) {
-    if (arr1.indexOf(arr2[i]) == -1) {
-      element.className += " " + arr2[i];
-    }
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
   }
 }
 
-// Hide elements that are not selected
 function w3RemoveClass(element, name) {
   var i, arr1, arr2;
   arr1 = element.className.split(" ");
   arr2 = name.split(" ");
   for (i = 0; i < arr2.length; i++) {
     while (arr1.indexOf(arr2[i]) > -1) {
-      arr1.splice(arr1.indexOf(arr2[i]), 1);
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
     }
   }
   element.className = arr1.join(" ");
 }
 
-// Add active class to the current control button (highlight it)
+
+// Add active class to the current button (highlight it)
 var btnContainer = document.getElementById("myBtnContainer");
 var btns = btnContainer.getElementsByClassName("btn");
 for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function() {
+  btns[i].addEventListener("click", function(){
     var current = document.getElementsByClassName("active");
     current[0].className = current[0].className.replace(" active", "");
     this.className += " active";
