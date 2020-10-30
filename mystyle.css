@@ -1,0 +1,107 @@
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+    
+<body class="w3-light-grey w3-content" style="max-width:1600px">    
+
+* {
+box-sizing: border-box;
+}
+
+body {
+background-color: #080808;
+/*background-image: url("blackbackground.jpg");*/
+padding: 20px;
+font-family: Arial;
+color: #faf6f6;
+}
+
+/* Center website */
+.main {
+max-width: 1000px;
+margin: auto;
+}
+
+.row {
+margin: 10px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+text-align: left;
+display: none; /* Hide all elements by default */
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+display: block;
+}
+
+@media screen and (max-width: 600px) {
+.navbar {float: none;}
+}
+
+.dropdown {
+float: left;
+overflow: hidden;
+}
+
+.dropdown .dropbtn {
+font-size: 16px;  
+border: none;
+outline: none;
+color: white;
+padding: 14px 16px;
+background-color: inherit;
+font-family: inherit;
+margin: 0;
+}
+
+.navbar {
+overflow: hidden;
+background-color: rgb(121, 6, 6);
+}
+
+.navbar a {
+float: left;
+font-size: 16px;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+background-color: rgba(15, 5, 5, 0.438);
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #b94747;
+min-width: 160px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+.dropdown-content a {
+float: none;
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align: left;
+}
+
+.dropdown-content a:hover {
+background-color: rgba(12, 7, 7, 0.486);
+}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+    
