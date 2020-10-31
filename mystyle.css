@@ -1,4 +1,4 @@
-body,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+body,h2,h3,h4,h5,h6 {font-family: "Railway", sans-serif}
     
 h1 {
 font-family: 'Permanent Marker', cursive;
@@ -7,7 +7,11 @@ font-weight: 400;
 
 h4 {
 color: #aaa5a5;
-font-weight: 400;
+}
+
+h3 {
+color: #fa4040;
+display: inline;
 }
 
 <body class="w3-light-grey w3-content" style="max-width:1600px">    
