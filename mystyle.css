@@ -7,8 +7,9 @@ box-sizing: border-box;
 }
 
 body {
-background-color: #080808;
-/*background-image: url("blackbackground.jpg");*/
+/*background-color: #080808;*/
+background-image: url("blackbackground.jpg");
+background-attachment: fixed;
 padding: 20px;
 font-family: Arial;
 color: #faf6f6;
@@ -33,7 +34,16 @@ padding: 8px;
 /* Create three equal columns that floats next to each other */
 .column {
 text-align: left;
+float: left;
+width: 33%;
 display: none; /* Hide all elements by default */
+}
+
+/* Clear floats after rows */ 
+.row:after {
+content: "";
+display: table;
+clear: both;
 }
 
 /* The "show" class is added to the filtered elements */
@@ -43,6 +53,20 @@ display: block;
 
 @media screen and (max-width: 600px) {
 .navbar {float: none;}
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
 }
 
 .dropdown {
@@ -64,6 +88,7 @@ margin: 0;
 .navbar {
 overflow: hidden;
 background-color: rgb(121, 6, 6);
+background-attachment: fixed;
 }
 
 .navbar a {
@@ -105,3 +130,10 @@ background-color: rgba(12, 7, 7, 0.486);
 display: block;
 }
     
+.embed-responsive {
+    position: relative;
+    display: block;
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+}

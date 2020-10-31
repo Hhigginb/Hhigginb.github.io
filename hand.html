@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<title>Haley Higginbotham</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+<link rel="stylesheet" href="mystyle.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+<body>
+<!-- Overlay effect when opening sidebar on small screens -->
+<!-- <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div> -->
+
+  <!-- Navigation Bar -->
+  <div class="navbar">
+    <div class="dropdown">
+      <button class="dropbtn"> HOME
+        <i class="fa fa-home"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="index.html#mission" onclick="w3_close()" class="w3-bar-item w3-button w3-padding">Mission</a> 
+        <a href="index.html#resume" onclick="w3_close()" class="w3-bar-item w3-button w3-padding">Resume</a> 
+        <a href="index.html#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-padding">Contact</a>
+      </div>
+    </div> 
+    <div class="dropdown">
+      <button class="dropbtn">MIND 
+        <i class="fa fa-brain fa-fw w3-margin-right"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="mind.html#courses" onclick="w3_close()" class="w3-bar-item w3-button w3-padding">Courses</a>
+        <a href="mind.html#research" onclick="w3_close()" class="w3-bar-item w3-button w3-padding">Research</a> 
+        <!-- <a href="mind.html#bookcase" onclick="w3_close()" class="w3-bar-item w3-button w3-padding">Bookcase</a> -->
+      </div>
+    </div> 
+    <div class="dropdown">
+      <button class="dropbtn" class="active">HAND 
+        <i class="fa fa-fist-raised fa-fw w3-margin-right"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="hand.html#projects" onclick="w3_close()" class="w3-bar-item w3-button w3-padding">Projects</a> 
+        <a href="hand.html#athletics" onclick="w3_close()" class="w3-bar-item w3-button w3-padding">Athletics</a>
+      </div>
+    </div> 
+    <div class="dropdown">
+      <button class="dropbtn">HEART 
+        <i class="fa fa-heart fa-fw w3-margin-right"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="heart.html#volunteering" onclick="w3_close()" class="w3-bar-item w3-button w3-padding">Volunteering</a> 
+        <a href="heart.html#adventures" onclick="w3_close()" class="w3-bar-item w3-button w3-padding">Adventures</a>
+      </div>
+    </div> 
+  </div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main">
+  <div class="w3-container w3-black" style="margin-left:5%; margin-right:5%; margin-top: 5%">
+    <!-- Header -->
+    <header id="hand">
+        <h1><b>Hand</b></h1>
+    </header>
+
+    <!-- Projects -->
+    <h4 id="projects"><b>Projects</b></h4>
+    <p><div class="w3-section w3-bottombar w3-padding-16">
+        <span class="w3-margin-right">Filter:</span> 
+        <button class="w3-button w3-black" onclick="filterSelection('all')">ALL</button>
+        <button class="w3-button w3-white" onclick="filterSelection('engineering')"><i class="fa fa-gears w3-margin-right"></i>Engineering</button>
+        <button class="w3-button w3-white w3-hide-small" onclick="filterSelection('art')"><i class="fa fa-photo w3-margin-right"></i>Art</button>
+        <button class="w3-button w3-white w3-hide-small" onclick="filterSelection('writing')"><i class="fa fa-pencil w3-margin-right"></i>Writing</button>
+    </p></div>
+
+    <!-- Photo Grid-->
+    <div id = "photos" class = "w3-container">
+      <div class="column w3-third w3-container w3-margin-bottom engineering">
+        <img src="luna1a.jpeg" alt="Luna" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+        <div class="w3-container w3-white">
+          <p><b>Lunar Rover</b></p>
+        </div>
+      </div>
+      <div class="column w3-third w3-container w3-margin-bottom art">
+        <img src="mirror.JPG" alt="Mirror" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+        <div class="w3-container w3-white">
+          <p><b>Mirror</b></p>
+        </div>
+      </div>
+      <div class="column w3-third w3-container w3-margin-bottom art">
+        <img src="turtle.JPG" alt="Turtle" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+        <div class="w3-container w3-white">
+          <p><b>Turtle</b></p>
+        </div>
+      </div>
+      <div class="column w3-third w3-container w3-margin-bottom art">
+        <img src="redpanda.JPG" alt="Red Panda" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+        <div class="w3-container w3-white">
+          <p><b>Red Panda</b></p>
+        </div>
+      </div>
+      <div class="column w3-third w3-container w3-margin-bottom engineering">
+        <img src="seaperch.JPG" alt="Sea Perch" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+        <div class="w3-container w3-white">
+          <p><b>Sea Perch</b></p>
+        </div>
+      </div>
+      <div class="column w3-third w3-container w3-margin-bottom art">
+        <img src="beaver3.JPG" alt="Tim Candle" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+        <div class="w3-container w3-white">
+          <p><b>Tim Candle</b></p>
+        </div>
+      </div>
+      <div class="column w3-third w3-container w3-margin-bottom art">
+        <img src="bob2.JPG" alt="landscape" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+        <div class="w3-container w3-white">
+          <p><b>Landscape</b></p>
+        </div>
+      </div>
+      <div class="column w3-third w3-container w3-margin-bottom engineering">
+        <img src="jankerg3.JPG" alt="Erg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+        <div class="w3-container w3-white">
+          <p><b>Erg</b></p>
+        </div>
+      </div>
+      <div class="column w3-third w3-container w3-margin-bottom engineering">
+        <img src="combolock.JPG" alt="combolock" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+        <div class="w3-container w3-white">
+          <p><b>Combolock Launcher</b></p>
+        </div>
+      </div>
+      <div class="column w3-third w3-container w3-margin-bottom engineering">
+        <img src="microscope.JPG" alt="microscope" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+        <div class="w3-container w3-white">
+          <p><b>Microscope</b></p>
+        </div>
+      </div>
+      <div class="column w3-third w3-container w3-margin-bottom engineering">
+        <img src="microfluidic.JPG" alt="microfluidic" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+        <div class="w3-container w3-white">
+          <p><b>Microfluidic</b></p>
+        </div>
+      </div>
+      <div class="column w3-third w3-container w3-margin-bottom art engineering">
+        <img src="koi.JPG" alt="koi" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+        <div class="w3-container w3-white">
+          <p><b>Koi</b></p>
+        </div>
+      </div>
+      <div class="column w3-third w3-container w3-margin-bottom art">
+        <img src="puzzleGoose.JPG" alt="puzzles" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+        <div class="w3-container w3-white">
+          <p><b>Puzzle Series</b></p>
+        </div>
+      </div>
+      <div class="column w3-third w3-container w3-margin-bottom writing">
+        <img src="109paperPic.JPG" alt="RA" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+        <div class="w3-container w3-white">
+          <p><b>20.109 Paper</b></p>
+        </div>
+      </div>
+      <div class="column w3-third w3-container w3-margin-bottom writing">
+        <img src="NucMapping.JPG" alt="ysp" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+        <div class="w3-container w3-white">
+          <p><b>YSP Paper</b></p>
+        </div>
+      </div>
+      <div class="column w3-third w3-container w3-margin-bottom art">
+        <img src="avianweb.JPG" alt="avianweb" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+        <div class="w3-container w3-white">
+          <p><b>AvianWeb Graphic</b></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div id="modal01" class="w3-modal">
+      <div class="w3-modal-content">
+        <header class="w3-container w3-teal">
+          <span onclick="document.getElementById('modal01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+        </header>
+        <div class="modal-header">
+          <span class="close">&times;</span>
+          <h2>Modal Header</h2>
+        </div>
+        <div class="w3-container">
+          <img id="img01" style="width:100%">
+        </div>
+        <div class="w3-container">
+          <p> description..</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+  function onClick(element) {
+    document.getElementById("img01").src = element.src;
+    document.getElementById("modal01").style.display = "block";
+  }
+  </script>
+
+<!-- End page content -->
+</div>
+
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("column");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+
+</body>
+</html>
