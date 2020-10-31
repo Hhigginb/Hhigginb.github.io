@@ -2,11 +2,12 @@ body,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
     
 h1 {
 font-family: 'Permanent Marker', cursive;
+font-weight: 400;
 }
 
 h4 {
 color: #aaa5a5;
-font-size: 22;
+font-size: medium;
 }
 
 <body class="w3-light-grey w3-content" style="max-width:1600px">    
