@@ -4,10 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script src='https://kit.fontawesome.com/a076d05399.js'></script>
-<link rel="stylesheet" href="mystyle.css">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap"> 
+<link rel="stylesheet" href="mystyle.css">
 
 <body>
 <!-- Overlay effect when opening sidebar on small screens -->
@@ -54,27 +53,44 @@
     <!-- Header -->
     <header id="about">
       <h1>HALEY HIGGINBOTHAM</h1>
-    <!-- Mission -->
-      <div class="w3-row-padding w3-padding-16" id="mission">
-          <img src="pic222.jpg" alt="Me" style="width:50%; display:inline">
-          <p>Hi there! My name is Haley Higginbotham and I am a senior undergraduate at the Massachusetts Institute of Technology. I 
-            am studying Bioengineering and Mechanical Engineering to prepare for a career in medical device development, where I can help
-            others while engaging my creativity and passion for engineering.
-            I strive to grow stronger every day by engaging my Mind, Hands, and Heart - a parody of the MIT motto: Mens et Manus 
-            Mind and Hand).<br>
-            <h3>Mind</h3>: education through <b>courses</b> and <b>research experiences</b> to grow stronger intellectually <br>
-            <h3>Hand</h3>: experiential learning in my <b>projects</b> and <b>athletics</b> to grow stronger physically <br>
-            <h3>Heart</h3>: <b>volunteering</b> and other <b>adventures</b> to grow stronger spiritually
-          </p>
-      </div>
     </header>
 
+    <!-- About -->
+    <div class="w3-row-padding w3-padding-16" id="about">
+      <img src="pic222.jpg" alt="Me" style="width:50%; float:left; margin-right:5%">
+      <p style="display: inline;">Hi there! I am a senior at MIT with an unquenchable enthusiasm for creating. I am studying 
+        Bioengineering and Mechanical Engineering. Through my coursework, extracurricular research, and 
+        personal projects I have gained, not only a solid foundation in engineering principles, but also 
+        in-depth experience in designing and manufacturing effective and efficient products at the interface of biological 
+        and synthetic systems. I aspire to a career in medical device development where I can engage 
+        my creativity and passion for engineering to a meaningful end by improving healthcare.
+      </p>
+    </div>
+    <div class="w3-row-padding" id="about">
+        <p>
+          I strive to grow stronger every day by engaging my Mind, Hands, and Heart - a parody of the MIT motto: Mens et Manus Mind and Hand).
+          <h3 style="display:inline">Mind</h3>: education through <a href="mind.html#courses" onclick="w3_close()"><h5>courses</h5></a>
+          and <a href="mind.html#research" onclick="w3_close()"><h5>research experiences</h5></a> to grow stronger intellectually <br>
+          <h3 style="display:inline">Hand</h3>: experiential learning in my <a href="hand.html#projects" onclick="w3_close()"><h5>projects</h5></a> and 
+          <a href="hand.html#athletics" onclick="w3_close()"><h5>athletics</h5></a> to grow stronger physically <br>
+          <h3 style="display:inline">Heart</h3>: <a href="heart.html#outreach" onclick="w3_close()"><h5>outreach</h5></a> and other <a href="heart.html#adventures" 
+          onclick="w3_close()"><h5>adventures</h5></a> to grow stronger spiritually
+        </p>
+    </div>
+
     <div class="w3-container w3-padding-large" style="margin-bottom:32px">
-      <h4><b>Resume</b></h4>
       <!-- Resume -->
+      <h4 id="resume" class="w3-section w3-bottombar w3-padding-16"><b>Resume</b></h4>
       <p>
         <button class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom">
-          <i class="fa fa-download w3-margin-right"></i>Download Resume
+          <a href="resumeHHigginbotham.pdf" onclick="w3_close()" class="w3-bar-item w3-button w3-padding">
+            <i class="fa fa-download w3-margin-right"></i>Download Resume
+          </a>
+        </button>
+        <button class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom">
+          <a href="cvHHigginbotham.pdf" onclick="w3_close()" class="w3-bar-item w3-button w3-padding">
+            <i class="fa fa-download w3-margin-right"></i>Download CV
+          </a>
         </button>
       </p>
     </div>

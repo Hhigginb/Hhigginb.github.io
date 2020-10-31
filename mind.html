@@ -4,9 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script src='https://kit.fontawesome.com/a076d05399.js'></script>
-<link rel="stylesheet" href="mystyle.css">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap"> 
+<link rel="stylesheet" href="mystyle.css">
 
 <body>
 <!-- Overlay effect when opening sidebar on small screens -->
@@ -55,46 +55,58 @@
       <h1><b>Mind</b></h1>
     </header>
 
-    <!-- Courses -->
-    <div class="w3-row-padding w3-padding-16" id="courses">
-        <h4><b>Courses</b></h4>
-        <iframe src = "RA1_2.pdf" width=100% height="600px">
-        </iframe>
-    </div>
-    
-    <div class="w3-row-padding w3-padding-16" id="research">
-        <h4><b>Research</b></h4>
-        <!-- Research Gallery Grid -->
-        <div class="row">
-            <div class="column">
-                <div class="w3-container">
-                    <img src="treadmill.JPG" alt="Rat Treadmill" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
-                    <p>Rat Treadmill</p>
-                </div>
-            </div>
-            <div class="column">
-                <div class="w3-container">
-                    <img src="treadmill.JPG" alt="Rat Treadmill" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
-                    <p>Cardiac Patch Delivery</p>
-                </div>
-            </div>
+  <!-- Courses -->
+  <h3 id="courses" class="w3-section w3-bottombar w3-padding-16"><b>Courses</b></h3>
+  <iframe src = "RA1_2.pdf" width=100% height="600px"></iframe>
+  
+  <h3 id="research" class="w3-section w3-bottombar w3-padding-16"><b>Research</b></h3>
+  <!-- Research Gallery Grid -->
+  <div class="row">
+      <div class="column">
+          <div class="w3-container">
+              <img src="treadmill.JPG" alt="Rat Treadmill" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+              <p>BioElectronics Group</p>
+          </div>
+      </div>
+      <div class="column">
+          <div class="w3-container">
+              <img src="deliver_only.png" alt="Cardiac Patch" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+              <p>2.750 - Medical Device Design</p>
+              <!--https://wikis.mit.edu/confluence/display/275/Cardiac+Patch+Delivery+Tool-->
+          </div>
+      </div>
+      <div class="column">
+        <div class="w3-container">
+            <img src="BioI.JPG" alt="BioInstrumentation" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+            <p>BioInstrumentation Lab</p>
         </div>
-        <div class="row">
-            <div class="column">
-                <div class="w3-container">
-                    <img src="handle.JPG" alt="Manus Handle" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
-                    <p>Newman Lab</p>
-                </div>
-            </div>
-            <div class="column">
-                <div class="w3-container">
-                    <img src="treadmill.JPG" alt="Rat Treadmill" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
-                    <p>CBME - ECMO & laryngoscope</p>
-                </div>
-            </div>
-        </div>
-        <!-- END GRID -->
     </div>
+  </div>
+  <div class="row">
+      <div class="column">
+          <div class="w3-container">
+              <img src="handle.JPG" alt="Manus Handle" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+              <p>Newman Lab</p>
+              <!-- Locomotor Control with Auditory Feedback -->
+          </div>
+      </div>
+      <div class="column">
+          <div class="w3-container">
+              <img src="comingsoon.png" alt="Rat Treadmill" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+              <p>Center for Biomedical Engineering</p>
+              <!-- Immunothrombosis in ECMO & Laryngoscope Design -->
+          </div>
+      </div>
+      <div class="column">
+        <div class="w3-container">
+            <img src="comingsoon.PNG" alt="Rat Treadmill" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+            <p>Florida State University</p>
+            <!-- Epigenetics Modulation with Purmorphamine -->
+        </div>
+    </div>
+  </div>
+  <!-- END GRID -->
+
 <!-- End page content -->
 </div>
 

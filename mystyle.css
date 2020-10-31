@@ -1,8 +1,7 @@
-body,h2,h3,h4,h5,h6 {font-family: "Railway", sans-serif}
+body,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
     
 h1 {
 font-family: 'Permanent Marker', cursive;
-font-weight: 400;
 }
 
 h4 {
@@ -11,7 +10,11 @@ color: #aaa5a5;
 
 h3 {
 color: #fa4040;
-display: inline;
+}
+
+h5 {
+color: #aaa5a5;
+display:inline;
 }
 
 <body class="w3-light-grey w3-content" style="max-width:1600px">    
@@ -23,6 +26,7 @@ box-sizing: border-box;
 body {
 /*background-color: #080808;*/
 background-image: url("blackbackground.jpg");
+background-size: cover;
 background-attachment: fixed;
 padding: 20px;
 font-family: Arial;
@@ -49,7 +53,7 @@ padding: 8px;
 .column {
 text-align: left;
 float: left;
-width: 50%;
+width: 30%;
 display: none; /* Hide all elements by default */
 }
 
@@ -136,3 +140,5 @@ background-color: rgba(12, 7, 7, 0.486);
 .dropdown:hover .dropdown-content {
 display: block;
 }
+
+.tab { margin-left: 40px; }
