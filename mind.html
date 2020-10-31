@@ -15,7 +15,7 @@
   <!-- Navigation Bar -->
   <div class="navbar">
     <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button"> HOME
-      <i class="fa fa-home"></i>
+      <i class="fa fa-home fa-fw w3-margin-right"></i>
     </a>
     <div class="dropdown">
       <button class="dropbtn">MIND 
@@ -65,20 +65,20 @@
       <div class="column">
           <div class="w3-container">
               <img src="treadmill.JPG" alt="Rat Treadmill" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
-              <p>BioElectronics Group</p>
+              <p class="label">BioElectronics Group</p>
           </div>
       </div>
       <div class="column">
           <div class="w3-container">
               <img src="deliver_only.png" alt="Cardiac Patch" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
-              <p>2.750 - Medical Device Design</p>
+              <p class="label">2.750 - Medical Device Design</p>
               <!--https://wikis.mit.edu/confluence/display/275/Cardiac+Patch+Delivery+Tool-->
           </div>
       </div>
       <div class="column">
         <div class="w3-container">
             <img src="BioI.JPG" alt="BioInstrumentation" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
-            <p>BioInstrumentation Lab</p>
+            <p class="label">BioInstrumentation Lab</p>
         </div>
     </div>
   </div>
@@ -106,6 +106,25 @@
     </div>
   </div>
   <!-- END GRID -->
+
+  <!-- Modal -->
+  <div id="modal01" class="w3-modal">
+    <div class="w3-modal-content">
+      <header class="w3-container w3-red">
+        <span onclick="document.getElementById('modal01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+      </header>
+      <div class="modal-header">
+        <span class="close">&times;</span>
+        <h2>Modal Header</h2>
+      </div>
+      <div class="w3-container">
+        <img id="img01" style="width:100%">
+      </div>
+      <div class="w3-container">
+        <p> description..</p>
+      </div>
+    </div>
+  </div>
 
 <!-- End page content -->
 </div>

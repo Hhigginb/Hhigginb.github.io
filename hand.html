@@ -15,7 +15,7 @@
   <!-- Navigation Bar -->
   <div class="navbar">
     <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button"> HOME
-      <i class="fa fa-home"></i>
+      <i class="fa fa-home fa-fw w3-margin-right"></i>
     </a>
     <div class="dropdown">
       <button class="dropbtn">MIND 
@@ -58,101 +58,53 @@
     <!-- Projects -->
     <h3 id="projects" class="w3-section w3-bottombar w3-padding-16"><b>Projects</b></h3>
     <!-- Photo Grid-->
-    <div id = "photos" class = "w3-container">
+    <div class = "row">
+      <div class="column">
+        <div class="w3-container">
+          <img src="rack.JPG" alt="Squat Rack" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+          <p><b>Squat Rack</b></p>
+        </div>
+      </div>
       <div class="column w3-third w3-container w3-margin-bottom engineering">
-        <img src="luna1a.jpeg" alt="Luna" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
-        <div class="w3-container w3-white">
+        <div class="w3-container">
+          <img src="uke24.JPG" alt="Ukulele" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+          <p><b>Ukulele</b></p>
+        </div>
+      </div>
+      <div class="column">
+        <div class="w3-container">
+          <img src="redpanda.JPG" alt="Red Panda" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+          <p><b>Art</b></p>
+        </div>
+      </div>
+      <!--AvianWeb,Microfluidic,Microscope,candle,mirror,brigid bike,bike water holder-->
+    </div>
+    <div class = "row">
+      <div class="column">
+        <div class="w3-container">
+          <img src="luna1a.jpeg" alt="Luna" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
           <p><b>Lunar Rover</b></p>
         </div>
       </div>
-      <div class="column w3-third w3-container w3-margin-bottom art">
-        <img src="mirror.JPG" alt="Mirror" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
-        <div class="w3-container w3-white">
-          <p><b>Mirror</b></p>
+      <div class="column">
+        <div class="w3-container">
+          <img src="turtle.jpg" alt="Turtle" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+          <p><b>Glassworking</b></p>
         </div>
       </div>
-      <div class="column w3-third w3-container w3-margin-bottom art">
-        <img src="turtle.JPG" alt="Turtle" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
-        <div class="w3-container w3-white">
-          <p><b>Turtle</b></p>
-        </div>
-      </div>
-      <div class="column w3-third w3-container w3-margin-bottom art">
-        <img src="redpanda.JPG" alt="Red Panda" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
-        <div class="w3-container w3-white">
-          <p><b>Red Panda</b></p>
-        </div>
-      </div>
-      <div class="column w3-third w3-container w3-margin-bottom engineering">
-        <img src="seaperch.JPG" alt="Sea Perch" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
-        <div class="w3-container w3-white">
-          <p><b>Sea Perch</b></p>
-        </div>
-      </div>
-      <div class="column w3-third w3-container w3-margin-bottom art">
-        <img src="beaver3.JPG" alt="Tim Candle" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
-        <div class="w3-container w3-white">
-          <p><b>Tim Candle</b></p>
-        </div>
-      </div>
-      <div class="column w3-third w3-container w3-margin-bottom art">
-        <img src="bob2.JPG" alt="landscape" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
-        <div class="w3-container w3-white">
-          <p><b>Landscape</b></p>
-        </div>
-      </div>
-      <div class="column w3-third w3-container w3-margin-bottom engineering">
-        <img src="jankerg3.JPG" alt="Erg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
-        <div class="w3-container w3-white">
-          <p><b>Erg</b></p>
-        </div>
-      </div>
-      <div class="column w3-third w3-container w3-margin-bottom engineering">
-        <img src="combolock.JPG" alt="combolock" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
-        <div class="w3-container w3-white">
+      <div class="column">
+        <div class="w3-container">
+          <img src="combolock.JPG" alt="combolock" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
           <p><b>Combolock Launcher</b></p>
         </div>
       </div>
-      <div class="column w3-third w3-container w3-margin-bottom engineering">
-        <img src="microscope.JPG" alt="microscope" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
-        <div class="w3-container w3-white">
-          <p><b>Microscope</b></p>
-        </div>
-      </div>
-      <div class="column w3-third w3-container w3-margin-bottom engineering">
-        <img src="microfluidic.JPG" alt="microfluidic" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
-        <div class="w3-container w3-white">
-          <p><b>Microfluidic</b></p>
-        </div>
-      </div>
-      <div class="column w3-third w3-container w3-margin-bottom art engineering">
-        <img src="koi.JPG" alt="koi" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
-        <div class="w3-container w3-white">
-          <p><b>Koi</b></p>
-        </div>
-      </div>
-      <div class="column w3-third w3-container w3-margin-bottom art">
-        <img src="puzzleGoose.JPG" alt="puzzles" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
-        <div class="w3-container w3-white">
-          <p><b>Puzzle Series</b></p>
-        </div>
-      </div>
-      <div class="column w3-third w3-container w3-margin-bottom writing">
-        <img src="109paperPic.JPG" alt="RA" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
-        <div class="w3-container w3-white">
-          <p><b>20.109 Paper</b></p>
-        </div>
-      </div>
-      <div class="column w3-third w3-container w3-margin-bottom writing">
-        <img src="NucMapping.JPG" alt="ysp" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
-        <div class="w3-container w3-white">
-          <p><b>YSP Paper</b></p>
-        </div>
-      </div>
-      <div class="column w3-third w3-container w3-margin-bottom art">
-        <img src="avianweb.JPG" alt="avianweb" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
-        <div class="w3-container w3-white">
-          <p><b>AvianWeb Graphic</b></p>
+    </div>
+    <!--AvianWeb,Microfluidic,Microscope,candle,mirror,sea perch,jank erg,puzzles-->
+    <div class = "row">
+      <div class="column">
+        <div class="w3-container">
+          <img src="microscope.JPG" alt="+" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+          <p><b>+ More!</b></p>
         </div>
       </div>
     </div>
@@ -160,7 +112,7 @@
     <!-- Modal -->
     <div id="modal01" class="w3-modal">
       <div class="w3-modal-content">
-        <header class="w3-container w3-teal">
+        <header class="w3-container w3-red">
           <span onclick="document.getElementById('modal01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
         </header>
         <div class="modal-header">
