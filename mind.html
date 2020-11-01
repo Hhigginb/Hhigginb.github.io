@@ -55,24 +55,23 @@
       <h1><b>Mind</b></h1>
     </header>
 
-  <!-- Courses -->
-  <h3 id="courses" class="w3-section w3-bottombar w3-padding-16"><b>Courses</b></h3>
-  <iframe src = "RA1_2.pdf" width=100% height="600px"></iframe>
-  
-  <h3 id="research" class="w3-section w3-bottombar w3-padding-16"><b>Research</b></h3>
-  <!-- Research Gallery Grid -->
-  <div class="row">
+    <!-- Courses -->
+    <h3 id="courses" class="w3-section w3-bottombar w3-padding-16"><b>Courses</b></h3>
+    <iframe src = "courses.pdf" width=100% height="600px"></iframe>
+    
+    <h3 id="research" class="w3-section w3-bottombar w3-padding-16"><b>Research</b></h3>
+    <!-- Research Gallery Grid -->
+    <div class="row">
       <div class="column">
           <div class="w3-container">
-              <img src="treadmill.JPG" alt="Rat Treadmill" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+              <img src="treadmill.JPG" alt="Rat Treadmill" style="width:100%" onclick="document.getElementById('modal-treadmill').style.display='block'" class="w3-hover-opacity">
               <p class="label">BioElectronics Group</p>
           </div>
       </div>
       <div class="column">
           <div class="w3-container">
-              <img src="deliver_only.png" alt="Cardiac Patch" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+              <img src="deliver_only.png" alt="Cardiac Patch" style="width:100%" onclick="document.getElementById('modal-patch').style.display='block'"  class="w3-hover-opacity">
               <p class="label">2.750 - Medical Device Design</p>
-              <!--https://wikis.mit.edu/confluence/display/275/Cardiac+Patch+Delivery+Tool-->
           </div>
       </div>
       <div class="column">
@@ -80,99 +79,178 @@
             <img src="BioI.JPG" alt="BioInstrumentation" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
             <p class="label">BioInstrumentation Lab</p>
         </div>
-    </div>
-  </div>
-  <div class="row">
+      </div>
       <div class="column">
           <div class="w3-container">
-              <img src="handle.JPG" alt="Manus Handle" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+              <img src="handle.JPG" alt="Manus Handle" style="width:100%" onclick="document.getElementById('modal-newman').style.display='block'" class="w3-hover-opacity">
               <p>Newman Lab</p>
-              <!-- Locomotor Control with Auditory Feedback -->
           </div>
       </div>
       <div class="column">
           <div class="w3-container">
-              <img src="comingsoon.png" alt="Rat Treadmill" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+              <img src="comingsoon.png" alt="Rat Treadmill" style="width:100%" onclick="document.getElementById('modal-ecmo').style.display='block'" class="w3-hover-opacity">
               <p>Center for Biomedical Engineering</p>
-              <!-- Immunothrombosis in ECMO & Laryngoscope Design -->
           </div>
       </div>
       <div class="column">
         <div class="w3-container">
-            <img src="comingsoon.PNG" alt="Rat Treadmill" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+            <img src="comingsoon.PNG" alt="Rat Treadmill" style="width:100%" onclick="document.getElementById('modal-ysp').style.display='block'" class="w3-hover-opacity">
             <p>Florida State University</p>
             <!-- Epigenetics Modulation with Purmorphamine -->
         </div>
+      </div>
     </div>
+
+    <!-- Modals -->
+    <div id="modal-treadmill" class="w3-modal w3-animate-zoom" onclick="this.style.display='none'" style="justify-content: center; widows: 75%">
+      <div class="w3-modal-content w3-white" style="margin-bottom: 10%">
+        <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+        <h2 class="w3-bottombar">BioElectronics Group</h2><br>
+        <p>TLDR:<br>
+          •	Built a treadmill and trained rats and mice in order to investigate the recovery of locomotor function after spinal cord injury<br>
+          •	Aided in the fabrication of custom neural probes<br>
+          •	Implemented a cloud-hosted neural network to perform motion capture video analysis
+        </p><br>
+        <img src="treadmill.jpg" style="width:50%; float:left; margin-right:5%">
+        <p style="display: inline">My project in the Bioelectronics Group, evolved over a couple years and involving a great host of subprojects. 
+          The overarching project investigated the potential for light to induce neuro-regeneration in rat models of spinal cord injury. I was initially 
+          recruited to design and build a rat treadmill for assessing the recovery of locomotor function. I was responsible for the entire development process, 
+          from background research, to design, fabrication, and testing. I created CAD models and fabricated my designs with a laser cutter and lathe. I also sourced 
+          and tested motors and elastic belt materials to optimize cost and performance. I iterated on the treadmill multiple times based on testing results. For example, 
+          in one early version of the treadmill, the belt was prone to slipping off of its track. Through researching related fields, I was able to identify and implement 
+          a solution - creating a convex surface for the belt pulley to generate differential tensions resulting in a self-centering system. This experience was great practice in 
+          the engineering design process, from ideation to fabrication and iteration.
+        </p>
+        <p>
+          It was my good fortune to get to work with the incredible Dr. Polina Anikeeva and to have a most talented and thoughtful mentor, Dr. Dena Shahriari, who, recognizing 
+          my enthusiasm for learning, offered further involvement in the incredibly multidisciplinary project. In addition to engaging in mechanical engineering and design, I 
+          gained exposure to methods for developing implantable electronics and neural probes as well as for animal handling and testing. When tasked with introducing a procedure 
+          for generating motion data from videos of the treadmill use, I taught myself computer vision methods and developed programs to conduct basic analysis. 
+          I ultimately identified a more advanced open-source platform, and through much trial and error figured out how to harness this tool for our application by training and 
+          implementing a cloud-based neural network to process the raw video data. Through this sub-project, I gained experience in integrating electronics and data processing.<br>
+          In addition to technical skills, I learned more general truths about the research process. The focus and design of the project were adapted numerous times as a partner 
+          neurosurgeon had to leave the project (requiring a new partner be found and brought up to date) and the surgical procedures had to be repeatedly modified to reduce the rate 
+          of casualties. Surgical and unexpected casualties were especially catastrophic setbacks, as each new cohort of rats set us back by months. I have learned patience and an appreciation 
+          for all the discovery that goes unpublished in the process of enabling that which is ultimately reported. Now as I enter my senior year, Dena has acquired a much deserved faculty 
+          position at the University of British Columbia and the project will leave MIT with her. The experiences I have had through this project have added tools to my engineering toolbox and 
+          provided valuable lessons in persistence and adaptability in the face of obstacles.
+        </p>
+        <p class="w3-bottombar"></p>
+      </div>
+    </div>
+    <div id="modal-patch" class="w3-modal w3-animate-zoom" onclick="this.style.display='none'" style="justify-content: center; widows: 75%">
+      <div class="w3-modal-content w3-white" style="margin-bottom: 10%">
+        <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+        <h2 class="w3-bottombar">Cardiac Patch Delivery Device</h2><br><br>
+        <p style="display: inline"> Currently, I am working with a team mentored by Professor Ellen Roche to develop a minimally invasive tool for the delivery of 
+          cardiac patches that provide mechanical support of heart function. This project is through the MIT capstone class 2.750 (Medical Device Design), which I am thrilled to 
+          finally be a part of, as I have eagerly looked forward to it since freshman year - planning 3 years of courses around attaining the prerequisites.
+          So far we have gathered clinician insights, ideated concepts for our delivery tool, and begun testing proof-of-concept prototypes. Individuals with MIT authorization may access
+          more details on this project through the team wiki page: <a href="https://wikis.mit.edu/confluence/display/275/Cardiac+Patch+Delivery+Tool">link</a>
+        </p>
+        <p class="w3-bottombar"></p>
+      </div>
+    </div>
+    <div id="modal-newman" class="w3-modal w3-animate-zoom" onclick="this.style.display='none'" style="justify-content: center; widows: 75%">
+      <div class="w3-modal-content w3-white" style="margin-bottom: 10%">
+        <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+        <h2 class="w3-bottombar">Newman Lab</h2><br>
+        <p>TLDR:<br>
+          I Used LabView to interface with a therapeutic robot’s FPGA controller and adapt the robot to provide a platform for investigating 
+          auditory feedback in control of fine locomotor functions.
+        </p><br>
+        <img src="handle.jpg" style="width:50%; float:left; margin-right:5%">
+        <p style="display: inline">My freshman year I managed to get a position in the Newman Biomechanics and 
+          Rehabilitation Lab. In this project I adapted a user-machine interface program to process motion parameters 
+          into auditory output for an investigation into feedback-mediated locomotor control.<br><br>
+          To do this I had to first learn LabView - a software used to adapt the robot's FPGA controller. The investigation of auditory feedback was
+          inspired in part by the motor control of musicians so, after developing the needed coding skills and 
+          adapting the feedback program, I created CAD models and 3D printed handle adaptations so users could grip the robot handle like a violin bow.<br><br>
+          I then collected some initial data, analyzed my findings, and presented to a joint lab meeting with collaborators at Northeastern University.<br><br>
+          My time in the Newman Lab served as a gateway to my future research experiences at MIT and guided my understanding of my own interests.
+        </p>
+        <p class="w3-bottombar"></p>
+      </div>
+    </div>
+    <div id="modal-ecmo" class="w3-modal w3-animate-zoom" onclick="this.style.display='none'" style="justify-content: center; widows: 75%">
+      <div class="w3-modal-content w3-white" style="margin-bottom: 10%">
+        <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+        <h2 class="w3-bottombar">Center for Biomedical Engineering</h2><br><br>
+        <p style="display: inline">
+          In the Center for Biomedical Engineering, I explored the influence of ECMO circuit design on thrombotic complications as well as 
+          the potential for laryngoscope modification to enhance tissue manipulation - though these projects were cut short by the Covid-19 pandemic. 
+          They did spur an interest in cardiac support devices, which I pursued in a subsequent project.<br><br>
+          More details on these projects to be uploaded soon
+        </p>
+        <p class="w3-bottombar"></p>
+      </div>
+    </div>
+    <div id="modal-ysp" class="w3-modal w3-animate-zoom" onclick="this.style.display='none'" style="justify-content: center; widows: 75%">
+      <div class="w3-modal-content w3-white" style="margin-bottom: 10%">
+        <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+        <h2 class="w3-bottombar">Florida State University</h2><br><br>
+        <p style="display: inline">
+          In the Summer of 2016, I was accepted to the Young Scholars Program. Through this program, I took classes 
+          and engaged in a research project at Florida State University. Specifically, I learned about differential equations and epigenetics.
+          My research project involved investigating the epigenetic effects of chemical treatment with purmorphamine, as measured by mapping shifts in 
+          nucleosome positioning.<br>
+          At the conclusion of the program, I presented my research at a public poster session and later produced a research paper.<br>
+        </p>
+        <iframe src = "ysppaper6.1.pdf" width=100% height="600px" style="margin-top: 4px"></iframe>
+        <p class="w3-bottombar"></p>
+      </div>
+    </div>
+    
   </div>
   <!-- END GRID -->
-
-  <!-- Modal -->
-  <div id="modal01" class="w3-modal">
-    <div class="w3-modal-content">
-      <header class="w3-container w3-red">
-        <span onclick="document.getElementById('modal01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
-      </header>
-      <div class="modal-header">
-        <span class="close">&times;</span>
-        <h2>Modal Header</h2>
-      </div>
-      <div class="w3-container">
-        <img id="img01" style="width:100%">
-      </div>
-      <div class="w3-container">
-        <p> description..</p>
-      </div>
-    </div>
-  </div>
 
 <!-- End page content -->
 </div>
 
 <script>
-filterSelection("all")
-function filterSelection(c) {
-  var x, i;
-  x = document.getElementsByClassName("column");
-  if (c == "all") c = "";
-  for (i = 0; i < x.length; i++) {
-    w3RemoveClass(x[i], "show");
-    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
-  }
-}
-
-function w3AddClass(element, name) {
-  var i, arr1, arr2;
-  arr1 = element.className.split(" ");
-  arr2 = name.split(" ");
-  for (i = 0; i < arr2.length; i++) {
-    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
-  }
-}
-
-function w3RemoveClass(element, name) {
-  var i, arr1, arr2;
-  arr1 = element.className.split(" ");
-  arr2 = name.split(" ");
-  for (i = 0; i < arr2.length; i++) {
-    while (arr1.indexOf(arr2[i]) > -1) {
-      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+  filterSelection("all")
+  function filterSelection(c) {
+    var x, i;
+    x = document.getElementsByClassName("column");
+    if (c == "all") c = "";
+    for (i = 0; i < x.length; i++) {
+      w3RemoveClass(x[i], "show");
+      if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
     }
   }
-  element.className = arr1.join(" ");
-}
-
-
-// Add active class to the current button (highlight it)
-var btnContainer = document.getElementById("myBtnContainer");
-var btns = btnContainer.getElementsByClassName("btn");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function(){
-    var current = document.getElementsByClassName("active");
-    current[0].className = current[0].className.replace(" active", "");
-    this.className += " active";
-  });
-}
+  
+  function w3AddClass(element, name) {
+    var i, arr1, arr2;
+    arr1 = element.className.split(" ");
+    arr2 = name.split(" ");
+    for (i = 0; i < arr2.length; i++) {
+      if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+    }
+  }
+  
+  function w3RemoveClass(element, name) {
+    var i, arr1, arr2;
+    arr1 = element.className.split(" ");
+    arr2 = name.split(" ");
+    for (i = 0; i < arr2.length; i++) {
+      while (arr1.indexOf(arr2[i]) > -1) {
+        arr1.splice(arr1.indexOf(arr2[i]), 1);     
+      }
+    }
+    element.className = arr1.join(" ");
+  }
+  
+  
+  // Add active class to the current button (highlight it)
+  var btnContainer = document.getElementById("myBtnContainer");
+  var btns = btnContainer.getElementsByClassName("btn");
+  for (var i = 0; i < btns.length; i++) {
+    btns[i].addEventListener("click", function(){
+      var current = document.getElementsByClassName("active");
+      current[0].className = current[0].className.replace(" active", "");
+      this.className += " active";
+    });
+  }
 </script>
 
 </body>

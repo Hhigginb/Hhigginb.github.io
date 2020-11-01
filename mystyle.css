@@ -4,6 +4,12 @@ h1 {
 font-family: 'Permanent Marker', cursive;
 }
 
+h2{
+color:black;
+display:inline; 
+font-weight: 600;   
+}
+
 h4 {
 color: #aaa5a5;
 }
@@ -33,29 +39,33 @@ font-family: Arial;
 color: #faf6f6;
 }
 
+
 /* Center website */
 .main {
-max-width: 1000px;
+max-width: 1200px;
 margin: auto;
+justify-content: center;
 }
 
 .row {
+max-width: 1200px;
+justify-content: center;
 display: flex;
 flex-wrap: wrap;
-padding: 0 4px;
+padding: 0 auto;
 }
 
 /* Add padding BETWEEN each column */
 .row,
 .row > .column {
-padding: 8px;
+padding: 4px;
 }
 
 /* Create three equal columns that floats next to each other */
 .column {
 flex: 30%;
 max-width: 30%;
-padding: 0 4px;
+padding: 0 auto;
 text-align: center;
 display: none; /* Hide all elements by default */
 }
@@ -151,3 +161,7 @@ display: block;
 }
 
 .tab { margin-left: 40px; }
+
+.w3-modal-content{
+padding:20px;
+}

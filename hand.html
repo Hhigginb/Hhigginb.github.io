@@ -66,7 +66,7 @@
             <p><b>Squat Rack</b></p>
           </div>
         </div>
-        <div class="column w3-third w3-container w3-margin-bottom engineering">
+        <div class="column">
           <div class="w3-container">
             <img src="uke24.JPG" alt="Ukulele" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
             <p><b>Ukulele</b></p>
@@ -78,9 +78,6 @@
             <p><b>Art</b></p>
           </div>
         </div>
-        <!--AvianWeb,Microfluidic,Microscope,candle,mirror,brigid bike,bike water holder-->
-      </div>
-      <div class = "row">
         <div class="column">
           <div class="w3-container">
             <img src="luna1a.jpeg" alt="Luna" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
@@ -99,9 +96,7 @@
             <p><b>Combolock Launcher</b></p>
           </div>
         </div>
-      </div>
-      <!--AvianWeb,Microfluidic,Microscope,candle,mirror,sea perch,jank erg,puzzles-->
-      <div class = "row">
+        <!--AvianWeb,Microfluidic,Microscope,candle,mirror,sea perch,jank erg,puzzles-->
         <div class="column">
           <div class="w3-container">
             <img src="microscope.JPG" alt="+" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
@@ -135,8 +130,9 @@
     <p>DETAILS COMING SOON!</p>
     
   </div>
+  
   <script>
-  function onClick(element) {
+    function onClick(element) {
     document.getElementById("img01").src = element.src;
     document.getElementById("modal01").style.display = "block";
   }
