@@ -42,7 +42,7 @@ margin: auto;
 .row {
 display: flex;
 flex-wrap: wrap;
-padding: 4 4px;
+padding: 0 4px;
 }
 
 /* Add padding BETWEEN each column */
@@ -57,8 +57,13 @@ flex: 30%;
 max-width: 30%;
 padding: 0 4px;
 text-align: center;
-float: center;
 display: none; /* Hide all elements by default */
+}
+
+.column img {
+margin-top: 8px;
+vertical-align: middle;
+width: 100%;
 }
 
 /* Clear floats after rows */ 
