@@ -93,14 +93,16 @@ display: block;
 }
 
 /* Responsive photo grid */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 800px) {
     .column {
-        width: 50%;
+        flex: 50%;
+        max-width: 50%;
     }
 }
 @media screen and (max-width: 600px) {
     .column {
-        width: 100%;
+        flex:50%;
+        max-width: 100%;
     }
 }
 
@@ -173,7 +175,7 @@ padding:20px;
 
 .container{
 position: relative;
-overflow: auto;
+overflow: hidden;
 width:90%;
 padding-top: 75%;
 margin-left: 5%;
@@ -183,6 +185,7 @@ margin-top: 5%;
 
 .responsive-iframe{
 position: absolute;
+overflow: hidden;
 top: 0;
 left: 0;
 bottom: 0;
