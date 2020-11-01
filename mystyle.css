@@ -92,7 +92,12 @@ display: block;
 .navbar {float: none;}
 }
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+/* Responsive photo grid */
+@media screen and (max-width: 900px) {
+    .column {
+        width: 50%;
+    }
+}
 @media screen and (max-width: 600px) {
     .column {
         width: 100%;
@@ -164,4 +169,24 @@ display: block;
 
 .w3-modal-content{
 padding:20px;
+}
+
+.container{
+position: relative;
+overflow: hidden;
+width:90%;
+padding-top: 75%;
+margin-left: 5%;
+margin-right: 5%;
+margin-top: 5%;
+}
+
+.responsive-iframe{
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+width: 100%;
+height: 100%;
 }
