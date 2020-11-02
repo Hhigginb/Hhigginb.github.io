@@ -62,72 +62,220 @@
       <div class = "row">
         <div class="column">
           <div class="w3-container">
-            <img src="rack.JPG" alt="Squat Rack" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+            <img src="rack.jpg" alt="Squat Rack" style="width:100%" onclick="document.getElementById('modal-rack').style.display='block'" class="w3-hover-opacity">
             <p><b>Squat Rack</b></p>
           </div>
         </div>
         <div class="column">
           <div class="w3-container">
-            <img src="uke24.JPG" alt="Ukulele" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+            <img src="uke24.jpg" alt="Ukulele" style="width:100%" onclick="document.getElementById('modal-uke').style.display='block'" class="w3-hover-opacity">
             <p><b>Ukulele</b></p>
           </div>
         </div>
         <div class="column">
           <div class="w3-container">
-            <img src="redpanda.JPG" alt="Red Panda" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+            <img src="redpanda.JPG" alt="Red Panda" style="width:100%" onclick="document.getElementById('modal-art').style.display='block'" class="w3-hover-opacity">
             <p><b>Art</b></p>
           </div>
         </div>
         <div class="column">
           <div class="w3-container">
-            <img src="luna1a.jpeg" alt="Luna" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+            <img src="luna1a.jpeg" alt="Luna" style="width:100%" onclick="document.getElementById('modal-007').style.display='block'" class="w3-hover-opacity">
             <p><b>Lunar Rover</b></p>
           </div>
         </div>
         <div class="column">
           <div class="w3-container">
-            <img src="turtle.jpg" alt="Turtle" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+            <img src="octopus.jpeg" alt="Octopus" style="width:100%" onclick="document.getElementById('modal-glass').style.display='block'" class="w3-hover-opacity">
             <p><b>Glassworking</b></p>
           </div>
         </div>
         <div class="column">
           <div class="w3-container">
-            <img src="combolock.JPG" alt="combolock" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+            <img src="combolock.JPG" alt="combolock" style="width:100%" onclick="document.getElementById('modal-lock').style.display='block'" class="w3-hover-opacity">
             <p><b>Combolock Launcher</b></p>
           </div>
         </div>
         <!--AvianWeb,Microfluidic,Microscope,candle,mirror,sea perch,jank erg,puzzles-->
         <div class="column">
           <div class="w3-container">
-            <img src="microscope.JPG" alt="+" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity">
+            <img src="microscope.JPG" alt="+" style="width:100%" onclick="document.getElementById('modal-more').style.display='block'" class="w3-hover-opacity">
             <p><b>+ More!</b></p>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- Modal -->
-    <div id="modal01" class="w3-modal">
-      <div class="w3-modal-content">
-        <header class="w3-container w3-red">
-          <span onclick="document.getElementById('modal01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
-        </header>
-        <div class="modal-header">
-          <span class="close">&times;</span>
-          <h2>Modal Header</h2>
+    <!-- Modals -->
+    <div id="modal-rack" class="w3-modal w3-animate-zoom" onclick="this.style.display='none'" style="justify-content: center; widows: 75%">
+      <div class="w3-modal-content w3-white" style="margin-bottom: 10%">
+        <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+        <h2 class="w3-bottombar">Squat Rack</h2><br>
+        <img src="rack.jpg" style="width:50%; float:left; margin-right:5%">
+        <p style="display: inline">While WWOOFing (World Wide Opportunities on Organic Farms) in the Los Padres Mountains I built a squat rack so that I could 
+          do some lifting despite the lack of gym access - due to the pandemic and my remote location.
+        </p>
+        <p>
+          pics coming soon to a webpage near you - hang tight!
+        </p>
+        <p class="w3-bottombar"></p>
+      </div>
+    </div>
+    <div id="modal-uke" class="w3-modal w3-animate-zoom" onclick="this.style.display='none'" style="justify-content: center; widows: 75%">
+      <div class="w3-modal-content w3-white" style="margin-bottom: 10%">
+        <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+        <h2 class="w3-bottombar">Ukulele</h2><br>
+        <img src="uke24.jpg" style="width:50%; float:left; margin-right:5%">
+        <p style="display: inline">While WWOOFing (World Wide Opportunities on Organic Farms) in the Los Padres Mountains I learned to play the ukulele. 
+          When I returned to campus for the Fall semester, I missed playing the uke and decided it would be a fun challenge to build my own ukulele. I figured
+          I am uniquely positioned at an advantage at this point in my life to take on this project, as I have access to extensive woodworking equipment and expertise 
+          through MIT's Hobby Shop. While this project is ongoing, here's a taste of my process so far:
+        </p>
+        <p>
+          A slideshow will be uploaded in the near future - stay tuned! ;)
+        </p>
+        <p class="w3-bottombar"></p>
+      </div>
+    </div>
+    <div id="modal-art" class="w3-modal w3-animate-zoom" onclick="this.style.display='none'" style="justify-content: center; widows: 75%">
+      <div class="w3-modal-content w3-white" style="margin-bottom: 10%">
+        <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+        <h2 class="w3-bottombar">Art</h2><br>
+        <p>
+          Slideshow coming soon
+        </p>
+        <p class="w3-bottombar"></p>
+      </div>
+    </div>
+    <div id="modal-007" class="w3-modal w3-animate-zoom" onclick="this.style.display='none'" style="justify-content: center; widows: 75%">
+      <div class="w3-modal-content w3-white" style="margin-bottom: 10%">
+        <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+        <h2 class="w3-bottombar">Ukulele</h2><br>
+        <img src="luna1a.jpeg" style="width:50%; float:left; margin-right:5%">
+        <p style="display: inline"> description and more pics coming soon
+        </p>
+        <p class="w3-bottombar"></p>
+      </div>
+    </div>
+    <div id="modal-glass" class="w3-modal w3-animate-zoom" onclick="this.style.display='none'" style="justify-content: center; widows: 75%">
+      <div class="w3-modal-content box w3-white" style="margin-bottom: 10%">
+        <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+        <h2 class="w3-bottombar">Glassworking</h2><br>
+        <div class="row">
+          <div class="column">
+              <div class="w3-container">
+                  <img src="marble.jpg">
+                  <p class="label">Marble - because you have to start somewhere</p>
+              </div>
+          </div>
+          <div class="column">
+            <div class="w3-container">
+                <img src="turtle.jpg">
+                <p class="label">Turtle with Inlay</p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="w3-container">
+                <img src="fish.JPG">
+                <p class="label">Tropical Fish - this was pretty fun to make, love the colors</p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="w3-container">
+                <img src="octopus.jpeg">
+                <p class="label">Octopus - an action shot!</p>
+            </div>
+          </div>
+          <p style="display: inline">
+          </p>
         </div>
-        <div class="w3-container">
-          <img id="img01" style="width:100%">
+        <p class="w3-bottombar"></p>
+      </div>
+    </div>
+    <div id="modal-lock" class="w3-modal w3-animate-zoom" onclick="this.style.display='none'" style="justify-content: center; widows: 75%">
+      <div class="w3-modal-content w3-white" style="margin-bottom: 10%">
+        <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+        <h2 class="w3-bottombar">Combolock Launcher</h2><br>
+        <img src="combolock.JPG" style="width:50%; float:left; margin-right:5%">
+        <p style="display: inline"> I have always been fascinated by mechanical mechanisms. My favorite book as a child was "The Way Things Work", a fantastic work 
+          chalk-full of beautiful descriptions and illustrations showing the physical principles and interactions at play in everyday items. The combination lock is an 
+          common item that is often overlooked, but beneath the simple exterior is an intricate and complex array of interacting parts. Fascinated by these inner workings, I 
+          decided to fabricate a clear combination lock so that the mechanism could be on full display during use.<br>
+          Thus the Combolock Launcher was born. I laser cut the bulk of the lock from clear acrylic. It took some 
+          iteration to get the dimensions right due to the kerf of the laser. I also had to design the inside to minimize friction between the axle and wheels - so the wheels would only turn 
+          when contacted by each other. In the final design, rather than having the lock open a safe, I had it pull a release to trigger a springloaded platform. When the proper launch code 
+          (the lock combination) was input, the platform sprang up to launch a 3D printed rocket into the air! As a fun bonus feature, I designed the notches and protrusions on the inner wheels to 
+          correspond to a launch code of 32-8-15 (the area code for the Kennedy Space Center). 
+        </p>
+        <img src="rocket.JPG" style="width:50%; float:left; margin-right:5%">
+        <p style="display: inline"> I made the rocket small and light and the springs are quite compressed in the starting configuration, so the 
+          rocket launches so high it hits the makershop ceiling! Post-launch recovery can be a bit fun - in hindsight I probably should have made it a brighter color
+        </p>
+        <p class="w3-bottombar"></p>
+      </div>
+    </div>
+    <div id="modal-more" class="w3-modal w3-animate-zoom" onclick="this.style.display='none'" style="justify-content: center; widows: 75%">
+      <div class="w3-modal-content box w3-white" style="margin-bottom: 10%">
+        <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+        <h2 class="w3-bottombar">More Projects!</h2><br>
+        <div class="row">
+          <p>
+            Wow, you made it all the way to this page? I'm impressed
+          </p>
+          <div class="column">
+              <div class="w3-container">
+                  <img src="microscope.JPG">
+                  <p class="label">Confocal Microscope - built and used for various experiments in 20.309</p>
+              </div>
+          </div>
+          <div class="column">
+            <div class="w3-container">
+                <img src="microfluidic.JPG">
+                <p class="label">Microfluidic Chip - laser cut and tested with cells cultured inside</p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="w3-container">
+                <img src="beaver2.JPG">
+                <p class="label">Tim the Beaver Candle - molded with clay then filled silicone mold with wax</p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="w3-container">
+                <img src="mirror.JPG">
+                <p class="label">Mirror for A Crew Friend - laser engraving + woodworking</p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="w3-container">
+                <img src="seaperch.JPG">
+                <p class="label">Underwater Vehicle - throwback to my FPOP, Discover Ocean Engineering</p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="w3-container">
+                <img src="jankerg.JPG">
+                <video width="320" height="240" controls>
+                  <source src="erg.mov" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video> 
+                <p class="label">Erg? Frankenstein bikes? - when the pandemic set in I had no erg for rowing practice but did have some old broken bikes...</p>
+            </div>
+          </div>
+          <p style="display: inline">
+          </p>
         </div>
-        <div class="w3-container">
-          <p> description..</p>
-        </div>
+        <p class="w3-bottombar"></p>
       </div>
     </div>
 
     <!-- Athletics -->
     <h3 id="athletics" class="w3-section w3-bottombar w3-padding-16"><b>Athletics</b></h3>
     <p>DETAILS COMING SOON!</p>
+    <video width="320" height="240" controls>
+      <source src="hocr2020.mov" type="video/mp4">
+    Your browser does not support the video tag.
+    </video> 
     <h3>Fun Facts!</h3><p>I've been a part of 2 Guiness World Records; 1) most collective half-marathons 
     in a day, 2) most 10k races held on the same day around the world </p>
     
