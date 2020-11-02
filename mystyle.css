@@ -175,7 +175,7 @@ padding:20px;
 
 .container{
 position: relative;
-overflow: hidden;
+overflow: auto;
 width:90%;
 padding-top: 75%;
 margin-left: 5%;
@@ -185,7 +185,6 @@ margin-top: 5%;
 
 .responsive-iframe{
 position: absolute;
-overflow: hidden;
 top: 0;
 left: 0;
 bottom: 0;
