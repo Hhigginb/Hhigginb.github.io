@@ -68,7 +68,7 @@
         </div>
         <div class="column">
           <div class="w3-container">
-            <img src="uke24.jpg" alt="Ukulele" style="width:100%" onclick="document.getElementById('modal-uke').style.display='block'" class="w3-hover-opacity">
+            <img src="uke22.jpg" alt="Ukulele" style="width:100%" onclick="document.getElementById('modal-uke').style.display='block'" class="w3-hover-opacity">
             <p><b>Ukulele</b></p>
           </div>
         </div>
@@ -197,51 +197,171 @@
           <span class="dot" onclick="currentSlide(9)"></span>
         </div>
 
-        <script>
-          var slideIndex = 1;
-          showSlides(slideIndex);
-          
-          function plusSlides(n) {
-            showSlides(slideIndex += n);
-          }
-          
-          function currentSlide(n) {
-            showSlides(slideIndex = n);
-          }
-          
-          function showSlides(n) {
-            var i;
-            var slides = document.getElementsByClassName("mySlides");
-            var dots = document.getElementsByClassName("dot");
-            if (n > slides.length) {slideIndex = 1}    
-            if (n < 1) {slideIndex = slides.length}
-            for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";  
-            }
-            for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" active", "");
-            }
-            slides[slideIndex-1].style.display = "block";  
-            dots[slideIndex-1].className += " active";
-          }
-        </script>
-
         <p class="w3-bottombar"></p>
       </div>
     </div>
-    <div id="modal-uke" class="w3-modal w3-animate-zoom" onclick="this.style.display='none'" style="justify-content: center; widows: 75%">
+    <div id="modal-uke" class="w3-modal w3-animate-zoom" style="justify-content: center; widows: 75%">
       <div class="w3-modal-content w3-white" style="margin-bottom: 10%">
-        <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+        <span class="w3-button w3-hover-red w3-xlarge w3-display-topright" onclick="document.getElementById('modal-uke').style.display='none'">&times;</span>
         <h2 class="w3-bottombar">Ukulele</h2><br>
-        <img src="uke24.jpg" style="width:50%; float:left; margin-right:5%">
-        <p style="display: inline">While WWOOFing (World Wide Opportunities on Organic Farms) in the Los Padres Mountains I learned to play the ukulele. 
+        <p>While WWOOFing (World Wide Opportunities on Organic Farms) in the Los Padres Mountains I learned to play the ukulele. 
           When I returned to campus for the Fall semester, I missed playing the uke and decided it would be a fun challenge to build my own ukulele. I figured
           I am uniquely positioned at an advantage at this point in my life to take on this project, as I have access to extensive woodworking equipment and expertise 
           through MIT's Hobby Shop. While this project is ongoing, here's a taste of my process so far:
         </p>
-        <p>
-          A slideshow will be uploaded in the near future - stay tuned! ;)
-        </p>
+
+        <!--Slideshow-->
+        <div class="slideshow-container">
+
+          <!-- Full-width images with number and caption text -->
+          <div class="mySlides2 fade">
+            <div class="numbertext">1 / 23</div>
+            <img src="uke1.jpg" style="width:100%">
+            <div class="text">Creating a Jig for the Body - 1</div>
+          </div>
+          <div class="mySlides2 fade">
+            <div class="numbertext">2 / 23</div>
+            <img src="uke2.jpg" style="width:100%">
+            <div class="text">Cutting out Jig with Bandsaw</div>
+          </div>
+          <div class="mySlides2 fade">
+            <div class="numbertext">3 / 23</div>
+            <img src="uke3.jpg" style="width:100%">
+            <div class="text">Print Out to Check Contour</div>
+          </div>
+          <div class="mySlides2 fade">
+            <div class="numbertext">4 / 23</div>
+            <img src="uke4.jpg" style="width:100%">
+            <div class="text">Refine on Oscillating Sander</div>
+          </div>
+          <div class="mySlides2 fade">
+            <div class="numbertext">5 / 23</div>
+            <img src="uke5.jpg" style="width:100%">
+            <div class="text">Maple (for the sides) on Joiner</div>
+          </div>
+          <div class="mySlides2 fade">
+            <div class="numbertext">6 / 23</div>
+            <img src="uke6.jpg" style="width:100%">
+            <div class="text">Resawing the Sides</div>
+          </div>
+          <div class="mySlides2 fade">
+            <div class="numbertext">7 / 23</div>
+            <img src="uke7.jpg" style="width:100%">
+            <div class="text">Sanding the Sides to Desired Thickness</div>
+          </div>
+          <div class="mySlides2 fade">
+            <div class="numbertext">8 / 23</div>
+            <img src="uke8.jpg" style="width:100%">
+            <div class="text">Ready for Steam-Bending!</div>
+          </div>
+          <div class="mySlides2 fade">
+            <div class="numbertext">9 / 23</div>
+            <img src="uke9.jpg" style="width:100%">
+            <div class="text">Letting the Planks Soak</div>
+          </div>
+          <div class="mySlides2 fade">
+            <div class="numbertext">10 / 23</div>
+            <img src="uke10.jpg" style="width:100%">
+            <div class="text">Found the Yield Strength!</div>
+          </div>
+          <div class="mySlides2 fade">
+            <div class="numbertext">11 / 23</div>
+            <img src="uke11.jpg" style="width:100%">
+            <div class="text">Clamping the Sides to the Jig to Hold Their Shape Post-SteamBending</div>
+          </div>
+          <div class="mySlides2 fade">
+            <div class="numbertext">12 / 23</div>
+            <img src="uke12.jpg" style="width:100%">
+            <div class="text">Sanding Padauk to Desired Thickness for Back of Body</div>
+          </div>
+          <div class="mySlides2 fade">
+            <div class="numbertext">13 / 23</div>
+            <img src="uke13.jpg" style="width:100%">
+            <div class="text">Glueing Bookended Padauk for the Back and Spruce for the Soundboard (Top)</div>
+          </div>
+          <div class="mySlides2 fade">
+            <div class="numbertext">14 / 23</div>
+            <img src="uke14.jpg" style="width:100%">
+            <div class="text">Laser Cut the Back</div>
+          </div>
+          <div class="mySlides2 fade">
+            <div class="numbertext">15 / 23</div>
+            <img src="uke16.jpg" style="width:100%">
+            <div class="text">Cutting Grooves for the Bridge with Table Router</div>
+          </div>
+          <div class="mySlides2 fade">
+            <div class="numbertext">16 / 23</div>
+            <img src="uke17.jpg" style="width:100%">
+            <div class="text">Nice</div>
+          </div>
+          <div class="mySlides2 fade">
+            <div class="numbertext">17 / 23</div>
+            <img src="uke18.jpg" style="width:100%">
+            <div class="text">Drilling Holes for the Strings</div>
+          </div>
+          <div class="mySlides2 fade">
+            <div class="numbertext">18 / 23</div>
+            <img src="uke19.jpg" style="width:100%">
+            <div class="text">Nice</div>
+          </div>
+          <div class="mySlides2 fade">
+            <div class="numbertext">19 / 23</div>
+            <img src="uke21.jpg" style="width:100%">
+            <div class="text">Cut Tenon to Prepare Stock for 4-axis Milling</div>
+          </div>
+          <div class="mySlides2 fade">
+            <div class="numbertext">20 / 23</div>
+            <img src="uke22.jpg" style="width:100%">
+            <div class="text">Testing Neck Toolpath on the 4-axis ShopBot</div>
+          </div>
+          <div class="mySlides2 fade">
+            <div class="numbertext">21 / 23</div>
+            <img src="ukeHelper.jpg" style="width:100%">
+            <div class="text">Guest Appearance in the Hobby Shop (Ella!)</div>
+          </div>
+          <div class="mySlides2 fade">
+            <div class="numbertext">22 / 23</div>
+            <img src="ukeSketch1.jpg" style="width:100%">
+            <div class="text">Digital Rendering of Engraving Idea for the Top</div>
+          </div>
+          <div class="mySlides2 fade">
+            <div class="numbertext">23 / 23</div>
+            <img src="ukeSketch.jpg" style="width:100%">
+            <div class="text">Prototyping Designs for the Top</div>
+          </div>
+        
+          <!-- Next and previous buttons -->
+          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+          <span class="dot" onclick="currentSlide(4)"></span>
+          <span class="dot" onclick="currentSlide(5)"></span>
+          <span class="dot" onclick="currentSlide(6)"></span>
+          <span class="dot" onclick="currentSlide(7)"></span>
+          <span class="dot" onclick="currentSlide(8)"></span>
+          <span class="dot" onclick="currentSlide(9)"></span>
+          <span class="dot" onclick="currentSlide(10)"></span>
+          <span class="dot" onclick="currentSlide(11)"></span>
+          <span class="dot" onclick="currentSlide(12)"></span>
+          <span class="dot" onclick="currentSlide(13)"></span>
+          <span class="dot" onclick="currentSlide(14)"></span>
+          <span class="dot" onclick="currentSlide(15)"></span>
+          <span class="dot" onclick="currentSlide(16)"></span>
+          <span class="dot" onclick="currentSlide(17)"></span>
+          <span class="dot" onclick="currentSlide(18)"></span>
+          <span class="dot" onclick="currentSlide(19)"></span>
+          <span class="dot" onclick="currentSlide(20)"></span>
+          <span class="dot" onclick="currentSlide(21)"></span>
+          <span class="dot" onclick="currentSlide(22)"></span>
+          <span class="dot" onclick="currentSlide(23)"></span>
+        </div>
+
         <p class="w3-bottombar"></p>
       </div>
     </div>
@@ -376,6 +496,28 @@
         <p class="w3-bottombar"></p>
       </div>
     </div>
+    
+    <script>
+      var slideIndex = [1,1];
+      var slideId = ["mySlides", "mySlides2"]
+      showDivs(1, 0);
+      showDivs(1, 1);
+      
+      function plusDivs(n, no) {
+        showDivs(slideIndex[no] += n, no);
+      }
+      
+      function showDivs(n, no) {
+        var i;
+        var x = document.getElementsByClassName(slideId[no]);
+        if (n > x.length) {slideIndex[no] = 1}
+        if (n < 1) {slideIndex[no] = x.length}
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";  
+        }
+        x[slideIndex[no]-1].style.display = "block";  
+      }
+      </script>
 
     <!-- Athletics -->
     <h3 id="athletics" class="w3-section w3-bottombar w3-padding-16"><b>Athletics</b></h3>
