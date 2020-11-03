@@ -108,7 +108,7 @@
       <div class="w3-modal-content w3-white" style="margin-bottom: 10%">
         <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
         <h2 class="w3-bottombar">BioElectronics Group</h2><br>
-        <p>TLDR:<br>
+        <p>TL;DR:<br>
           •	Built a treadmill and trained rats and mice in order to investigate the recovery of locomotor function after spinal cord injury<br>
           •	Aided in the fabrication of custom neural probes<br>
           •	Implemented a cloud-hosted neural network to perform motion capture video analysis
@@ -156,13 +156,15 @@
     <div id="modal-bioI" class="w3-modal w3-animate-zoom" onclick="this.style.display='none'" style="justify-content: center; widows: 75%">
       <div class="w3-modal-content w3-white" style="margin-bottom: 10%">
         <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
-        <h2 class="w3-bottombar">BioInstrumentation Lab</h2><br><br>
-        <img src="BioI.jpg" alt="BioInstrumentation Lab" style="max-width:40%; float:right; margin-left:5%; margin-bottom: 4px;">
-        <p style="display: inline;">
-          In the Summer of 2019, I traveled to Auckland, New Zealand for a 3 month internship within the BioInstrumentation Lab at the University of Auckland.
-          My lab was located within the Auckland BioEngineering House (pictured).
-          More details on this experience will be uploaded soon!
-        </p>
+        <h2 class="w3-bottombar">BioInstrumentation Lab</h2><br>
+        <div style="margin-top: 8px;">
+          <img src="BioI.jpg" alt="BioInstrumentation Lab" style="max-width:50%; float:right; margin-left:5%; margin-bottom: 4px;">
+          <p style="display: inline;">
+            In the Summer of 2019, I traveled to Auckland, New Zealand for a 3 month internship within the BioInstrumentation Lab at the University of Auckland.
+            My lab was located within the Auckland BioEngineering House (pictured).
+            More details on this experience will be uploaded soon!
+          </p>
+        </div>
         <p class="w3-bottombar"></p>
       </div>
     </div>
@@ -170,7 +172,7 @@
       <div class="w3-modal-content w3-white" style="margin-bottom: 10%">
         <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
         <h2 class="w3-bottombar">Newman Lab</h2><br>
-        <p>TLDR:<br>
+        <p>TL;DR:<br>
           I Used LabView to interface with a therapeutic robot’s FPGA controller and adapt the robot to provide a platform for investigating 
           auditory feedback in control of fine locomotor functions.
         </p><br>
@@ -192,7 +194,7 @@
         <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
         <h2 class="w3-bottombar">Center for Biomedical Engineering</h2><br><br>
         <p style="display: inline">
-          TLDR: In the Center for Biomedical Engineering, I explored the influence of ECMO circuit design on thrombotic complications as well as 
+          TL;DR: In the Center for Biomedical Engineering, I explored the influence of ECMO circuit design on thrombotic complications as well as 
           the potential for laryngoscope modification to enhance tissue manipulation - though these projects were cut short by the Covid-19 pandemic. 
           They did spur an interest in cardiac support devices, which I pursued in a subsequent project.<br><br>
         </p>
@@ -239,52 +241,6 @@
 
 <!-- End page content -->
 </div>
-
-<script>
-  filterSelection("all")
-  function filterSelection(c) {
-    var x, i;
-    x = document.getElementsByClassName("column");
-    if (c == "all") c = "";
-    for (i = 0; i < x.length; i++) {
-      w3RemoveClass(x[i], "show");
-      if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
-    }
-  }
-  
-  function w3AddClass(element, name) {
-    var i, arr1, arr2;
-    arr1 = element.className.split(" ");
-    arr2 = name.split(" ");
-    for (i = 0; i < arr2.length; i++) {
-      if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
-    }
-  }
-  
-  function w3RemoveClass(element, name) {
-    var i, arr1, arr2;
-    arr1 = element.className.split(" ");
-    arr2 = name.split(" ");
-    for (i = 0; i < arr2.length; i++) {
-      while (arr1.indexOf(arr2[i]) > -1) {
-        arr1.splice(arr1.indexOf(arr2[i]), 1);     
-      }
-    }
-    element.className = arr1.join(" ");
-  }
-  
-  
-  // Add active class to the current button (highlight it)
-  var btnContainer = document.getElementById("myBtnContainer");
-  var btns = btnContainer.getElementsByClassName("btn");
-  for (var i = 0; i < btns.length; i++) {
-    btns[i].addEventListener("click", function(){
-      var current = document.getElementsByClassName("active");
-      current[0].className = current[0].className.replace(" active", "");
-      this.className += " active";
-    });
-  }
-</script>
 
 </body>
 </html>
