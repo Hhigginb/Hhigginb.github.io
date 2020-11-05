@@ -80,17 +80,119 @@
         me to organize a food drive, benefitting the GBFB, to help alleviate food insecurity for our neighbors in the Boston area community. As many prepared
         to leave campus for the summer, I gathered a few friends to help distribute collection boxes and donation guidelines. The response was stunning; donation 
         boxes overflowed and we were barely able to fit them all into our van. The food drive has become an annual event, and even this past year I was able to throw 
-        together a last minute drive to help sustain the food bank amid the pandemic evacuations and collected a surprising volume of donations (pictured below) despite the haste.
+        together a last minute drive to help sustain the food bank amid the pandemic evacuations and collected a surprising volume of donations (pictured) despite the haste.
       </p>
     </div>
     
     <!-- Adventures -->
     <h3 id="adventures" class="w3-section w3-bottombar w3-padding-16"><b>Adventures</b></h3>
     <h4>New Zealand</h4>
+    <div class="box w3-container">
+      <!--Slideshow-->
+      <div class="slideshow-container slider" id = div1>
+
+        <!-- Full-width images with number and caption text -->
+        <!-- <div class="mySlides fade">
+          <div class="numbertext">1 / 9</div>
+          <img src="nz1.jpg" style="width:100%">
+          <div class="text">View of Auckland from Volcanic Cone</div>
+        </div> -->
+      
+        <!-- Next and previous buttons -->
+        <!-- <a class="prev" onclick="plusDivs(-1,0)">&#10094;</a>
+        <a class="next" onclick="plusDivs(1,0)">&#10095;</a> -->
+      </div>
+      
+      <!-- The dots/circles -->
+      <!-- <div style="text-align:center">
+        <span class="dot" onclick="showDivs(1,0)"></span>
+      </div> -->
+    </div>
     <h4>Shanghai, China</h4>
+    <div>
+      <!--Slideshow-->
+      <div class="slideshow-container slider" id = div2>
+
+        <!-- Full-width images with number and caption text -->
+<!--         <div class="mySlides2 fade">
+          <div class="numbertext">1 / 8</div>
+          <img src="fung1.jpg" style="width:100%">
+          <div class="text">Getting Tourist-y</div>
+        </div>
+        <div class="mySlides2 fade">
+          <div class="numbertext">2 / 8</div>
+          <img src="fung2.jpg" style="width:100%">
+          <div class="text">Fung Scholars Leadership Conference</div>
+        </div>
+        <div class="mySlides2 fade">
+          <div class="numbertext">3 / 8</div>
+          <img src="fung3.jpg" style="width:100%">
+          <div class="text">I was Master of Ceremonies!</div>
+        </div>
+        <div class="mySlides2 fade">
+          <div class="numbertext">4 / 8</div>
+          <img src="fung5.jpg" style="width:100%">
+          <div class="text">Conference Staff Dinner</div>
+        </div>
+        <div class="mySlides2 fade">
+          <div class="numbertext">5 / 8</div>
+          <img src="fung6.jpg" style="width:100%">
+          <div class="text">Sightseeing with new friends in Shanghai</div>
+        </div>
+        <div class="mySlides2 fade">
+          <div class="numbertext">6 / 8</div>
+          <img src="fung8.jpg" style="width:100%">
+          <div class="text">I try to join in some Tai Chi</div>
+        </div>
+        <div class="mySlides2 fade">
+          <div class="numbertext">7 / 8</div>
+          <img src="fung9.jpg" style="width:100%">
+          <div class="text">Visiting the 2nd China International Import Expo</div>
+        </div>
+        <div class="mySlides2 fade">
+          <div class="numbertext">8 / 8</div>
+          <video width="320" height="240" controls>
+            <source src="fungVid1.mov" type="video/mp4">
+          Your browser does not support the video tag.
+          </video>
+          <div class="text">Dumplings!</div>
+        </div> -->
+
+        <!-- Next and previous buttons -->
+        <!-- <a class="prev" onclick="plusDivs(-1,0)">&#10094;</a>
+        <a class="next" onclick="plusDivs(1,0)">&#10095;</a> -->
+      </div>
+      
+      <!-- The dots/circles -->
+      <!-- <div style="text-align:center">
+        <span class="dot" onclick="showDivs(1,0)"></span>
+      </div> -->
+    </div>
     <h4>Big Sur</h4>
     <p class="tab">DETAILS COMING SOON!</p>
 
+    <script>
+      var slideIndex = [1,1];
+      var slideId = ["mySlides", "mySlides2"]
+      showDivs(1, 0);
+      showDivs(1, 1);
+      
+      function plusDivs(n, no) {
+        showDivs(slideIndex[no] += n, no);
+      }
+      
+      function showDivs(n, no) {
+        var i;
+        var x = document.getElementsByClassName(slideId[no]);
+        slideIndex[no]=n;
+        if (n > x.length) {slideIndex[no] = 1}
+        if (n < 1) {slideIndex[no] = x.length}
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";  
+        }
+        x[slideIndex[no]-1].style.display = "block";  
+      }
+    </script>
 <!-- End page content -->
 </div>
 
