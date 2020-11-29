@@ -285,6 +285,17 @@ display: inline-block;
   display: none;
 }
 
+div.figure {
+  float: right;
+  width: 200px;
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+
 @-webkit-keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
