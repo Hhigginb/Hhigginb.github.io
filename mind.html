@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap"> 
 <link rel="stylesheet" href="mystyle.css">
 
-<body>
+<body onload="setIFrameHeight">
 <!-- Overlay effect when opening sidebar on small screens -->
 <!-- <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div> -->
 
@@ -58,7 +58,7 @@
     <!-- Courses -->
     <h3 id="courses" class="w3-section w3-bottombar w3-padding-16"><b>Courses</b></h3>
     <div class="container">
-      <iframe class="responsive" src = "courses.pdf"></iframe>
+      <iframe id="courseslist" class="responsive" src = "courses.pdf"></iframe>
     </div>
     
     <h3 id="research" class="w3-section w3-bottombar w3-padding-16"><b>Research</b></h3>
@@ -246,4 +246,13 @@
 </div>
 
 </body>
+
+<script>
+function setIFrameHeight(){
+  var height     = document.body.scrollHeight;
+  height     = height - 100;
+  document.getElementById('courseslist').style.height = height + "px";
+}
+</script>
+
 </html>
