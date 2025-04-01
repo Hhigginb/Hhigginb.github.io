@@ -62,6 +62,18 @@
       <div class = "row">
         <div class="column">
           <div class="w3-container">
+            <img src="bass.jpg" alt="Bass" style="width:100%" onclick="document.getElementById('modal-bass').style.display='block'" class="w3-hover-opacity">
+            <p><b>Bass</b></p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="w3-container">
+            <img src="bike.jpg" alt="Bike" style="width:100%" onclick="document.getElementById('modal-bike').style.display='block'" class="w3-hover-opacity">
+            <p><b>Bike</b></p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="w3-container">
             <img src="rack.jpg" alt="Squat Rack" style="width:100%" onclick="document.getElementById('modal-rack').style.display='block'" class="w3-hover-opacity">
             <p><b>Squat Rack</b></p>
           </div>
@@ -107,6 +119,118 @@
     </div>
 
     <!-- Modals -->
+    <div id="modal-bass" class="w3-modal w3-animate-zoom" style="justify-content: center; widows: 75%">
+      <div class="w3-modal-content w3-white" style="margin-bottom: 10%">
+        <span class="w3-button w3-hover-red w3-xlarge w3-display-topright" onclick="document.getElementById('modal-bass').style.display='none',showDivs(1, 0)">&times;</span>
+        <h2 class="w3-bottombar">Bass</h2><br>
+        <p> After having so much fun building my ukulele I couldn't wait to build another instrument! Like the ukulele, many design elements of this bass were inspired by traditional Maori carvings. For instance, the custom shape takes the form of the hei matau (fishhook).
+        </p>
+        <!--Slideshow-->
+        <div class="slideshow-container slider" id = div1>
+
+          <!-- Full-width images with number and caption text -->
+          <div class="mySlides fade">
+            <div class="numbertext">1 / 7</div>
+            <img src="bass1.jpg" style="width:100%">
+            <div class="text">Routing the body</div>
+          </div>
+        
+          <div class="mySlides fade">
+            <div class="numbertext">2 / 7</div>
+            <img src="bass2.jpg" style="width:100%">
+            <div class="text">Truss rod & skunk stripe installed</div>
+          </div>
+        
+          <div class="mySlides fade">
+            <div class="numbertext">3 / 7</div>
+            <img src="bass3.jpg" style="width:100%">
+            <div class="text">Fret marker inlays and neck routing</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">4 / 7</div>
+            <img src="bass4.jpg" style="width:100%">
+            <div class="text">Milled custom neck plate</div>
+          </div>
+        
+          <div class="mySlides fade">
+            <div class="numbertext">5 / 7</div>
+            <img src="bass5.jpg" style="width:100%">
+            <div class="text">It took a whole day to mix the perfect stain colors but I'm v glad I didn't settle</div>
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext">6 / 7</div>
+            <img src="bass6.jpg" style="width:100%">
+            <div class="text">Ta da!</div>
+          </div>
+        
+          <div class="mySlides fade">
+            <div class="numbertext">7 / 7</div>
+            <video width="320" height="240" controls>
+              <source src="bass.mov" type="video/mp4">
+              Your browser does not support the video tag.
+            </video> 
+            <div class="text">Finished Bass</div>
+          </div>
+        
+          <!-- Next and previous buttons -->
+          <a class="prev" onclick="plusDivs(-1,0)">&#10094;</a>
+          <a class="next" onclick="plusDivs(1,0)">&#10095;</a>
+        </div>
+        <br>
+        
+        <!-- The dots/circles -->
+        <div style="text-align:center">
+          <span class="dot" onclick="showDivs(1,0)"></span>
+          <span class="dot" onclick="showDivs(2,0)"></span>
+          <span class="dot" onclick="showDivs(3,0)"></span>
+          <span class="dot" onclick="showDivs(4,0)"></span>
+          <span class="dot" onclick="showDivs(5,0)"></span>
+          <span class="dot" onclick="showDivs(6,0)"></span>
+          <span class="dot" onclick="showDivs(7,0)"></span>
+        </div>
+
+        <p class="w3-bottombar"></p>
+      </div>
+    </div>
+
+    <div id="modal-bike" class="w3-modal w3-animate-zoom" style="justify-content: center; widows: 75%">
+      <div class="w3-modal-content w3-white" style="margin-bottom: 10%">
+        <span class="w3-button w3-hover-red w3-xlarge w3-display-topright" onclick="document.getElementById('modal-bike').style.display='none',showDivs(1, 0)">&times;</span>
+        <h2 class="w3-bottombar">Bike</h2><br>
+        <p> I tell anyone who will listen that biking is the best way to get around campus/Boston. It was only a matter of time before I built a bike of my own!
+          Inspired by recent travels to the Netherlands, I designed a bike in a more Dutch style - with a step through frame and more upright sitting position. These design choices prioritize comfort over speed.
+        </p>
+        <div class = "row">
+          <div class="column art" style="min-width:50%">
+            <div class="w3-container">
+                <img src="bike1.jpg">
+                <p class="label">Welding Jig for Frame</p>
+            </div>
+          </div>
+          <div class="column art" style="min-width:50%">
+            <div class="w3-container">
+                <img src="bike2.jpg">
+                <p class="label">Made a temporary vinyl mask to enable this scaly paint job</p>
+            </div>
+          </div>
+          <div class="column art" style="min-width:50%">
+            <div class="w3-container">
+                <img src="bike3.jpg">
+                <p class="label">3D printed a chain cover with a special filament to match the iridescent paint job</p>
+            </div>
+          </div>
+          <div class="column art" style="min-width:50%">
+            <div class="w3-container">
+                <img src="bike.jpg">
+                <p class="label">Assembled & Ready to Ride!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div id="modal-rack" class="w3-modal w3-animate-zoom" style="justify-content: center; widows: 75%">
       <div class="w3-modal-content w3-white" style="margin-bottom: 10%">
         <span class="w3-button w3-hover-red w3-xlarge w3-display-topright" onclick="document.getElementById('modal-rack').style.display='none',showDivs(1, 0)">&times;</span>
@@ -546,12 +670,97 @@
                 <p class="label">Octopus - an action shot!</p>
             </div>
           </div>
+          <div class="column">
+            <div class="w3-container">
+                <img src="marble.jpg">
+                <p class="label">Marble - because you have to start somewhere</p>
+            </div>
+        </div>
+        <div class="column">
+          <div class="w3-container">
+              <img src="glassblowing1.jpg">
+              <p class="label">Action Shot! stretching the form</p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="w3-container">
+              <img src="glassblowing3.jpg">
+              <p class="label">Pumpkins + Cactus</p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="w3-container">
+              <img src="glassblowing3.jpg">
+              <p class="label">Lamp Shade</p>
+          </div>
+        </div>
           <p style="display: inline">
           </p>
         </div>
         <p class="w3-bottombar"></p>
       </div>
     </div>
+
+    <div id="modal-key" class="w3-modal w3-animate-zoom" onclick="this.style.display='none'" style="justify-content: center; widows: 75%">
+      <div class="w3-modal-content box w3-white" style="margin-bottom: 10%">
+        <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+        <h2 class="w3-bottombar">Key</h2><br>
+        <div class="row">
+          <div class="column">
+              <div class="w3-container">
+                  <img src="key1.jpg">
+                  <p class="label">Ever had the key to your bike lock break? Seems like a great opportunity to try casting to me!</p>
+              </div>
+          </div>
+          <div class="column">
+            <div class="w3-container">
+                <img src="key2.jpg">
+                <p class="label">A negative mold was made from silicone and then wax was poured in</p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="w3-container">
+                <img src="key3.jpg">
+                <p class="label">Wax key</p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="w3-container">
+                <img src="key4.jpg">
+                <p class="label">A plaster mold is created around the wax form</p>
+            </div>
+          </div>
+          <div class="column">
+            <div class="w3-container">
+                <img src="key5.jpg">
+                <p class="label">The wax is melted away and molten brass is poured into the mold</p>
+            </div>
+        </div>
+        <div class="column">
+          <div class="w3-container">
+              <img src="key6.jpg">
+              <p class="label">Freeing the key!</p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="w3-container">
+              <img src="key7.jpg">
+              <p class="label">Time to cut off the sprue and polish the key</p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="w3-container">
+              <img src="key8.jpg">
+              <p class="label">Ta da!</p>
+          </div>
+        </div>
+          <p style="display: inline">
+          </p>
+        </div>
+        <p class="w3-bottombar"></p>
+      </div>
+    </div>
+
     <div id="modal-lock" class="w3-modal w3-animate-zoom" onclick="this.style.display='none'" style="justify-content: center; widows: 75%">
       <div class="w3-modal-content w3-white" style="margin-bottom: 10%">
         <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
