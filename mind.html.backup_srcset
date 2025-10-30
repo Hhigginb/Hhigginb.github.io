@@ -71,7 +71,7 @@
     <div class="row">      <div class="column">
         <div class="w3-container">
             <picture>
-              <source srcset="responsive_images/thumb/nmrmag.webp 300w, responsive_images/small/nmrmag.webp 640w, responsive_images/small/nmrmag.webp 1024w, responsive_images/small/nmrmag.webp 1920w, responsive_images/full/nmrmag.webp 2560w" sizes="(max-width: 640px) 50vw, 33vw" type="image/webp">
+              <source srcset="responsive_images/thumb/nmrmag.webp 300w, responsive_images/small/nmrmag.webp 640w, responsive_images/medium/nmrmag.webp 1024w, responsive_images/full/nmrmag.webp 2560w" sizes="(max-width: 640px) 50vw, 33vw" type="image/webp">
               <img src="nmrmag.jpg" alt="NMR Sensor" onclick="document.getElementById('modal-nmr').style.display='block'" class="w3-hover-opacity" loading="lazy">
             </picture>
             <p class="label">Cima Lab</p>
@@ -80,34 +80,34 @@
       <div class="column">
           <div class="w3-container">
               <picture>
-              <source srcset="responsive_images/thumb/nervestim.webp 300w, responsive_images/small/nervestim.webp 640w, responsive_images/small/nervestim.webp 1024w, responsive_images/small/nervestim.webp 1920w, responsive_images/full/nervestim.webp 2560w" sizes="(max-width: 640px) 50vw, 33vw" type="image/webp">
-              <img src="nervestim.jpg" alt="Nerve Stimulation" onclick="document.getElementById('modal-nervestim').style.display='block'" class="w3-hover-opacity" loading="lazy">
-            </picture>
+                <source srcset="responsive_images/thumb/nervestim.webp 300w, responsive_images/small/nervestim.webp 640w, responsive_images/medium/nervestim.webp 1024w, responsive_images/full/nervestim.webp 2560w" sizes="(max-width: 640px) 50vw, 33vw" type="image/webp">
+                <img src="nervestim.jpg" alt="Nerve Stimulation" onclick="document.getElementById('modal-nervestim').style.display='block'" class="w3-hover-opacity" loading="lazy">
+              </picture>
               <p class="label">Langer/Traverso Lab</p>
           </div>
       </div>
       <div class="column">
           <div class="w3-container">
               <picture>
-              <source srcset="responsive_images/thumb/treadmill.webp 300w, responsive_images/small/treadmill.webp 640w, responsive_images/medium/treadmill.webp 1024w, responsive_images/large/treadmill.webp 1920w, responsive_images/full/treadmill.webp 2560w" sizes="(max-width: 640px) 50vw, 33vw" type="image/webp">
-              <img src="treadmill.jpg" alt="Rat Treadmill" onclick="document.getElementById('modal-treadmill').style.display='block'" class="w3-hover-opacity" loading="lazy">
-            </picture>
+                <source srcset="responsive_images/thumb/treadmill.webp 300w, responsive_images/small/treadmill.webp 640w, responsive_images/medium/treadmill.webp 1024w, responsive_images/full/treadmill.webp 2560w" sizes="(max-width: 640px) 50vw, 33vw" type="image/webp">
+                <img src="treadmill.jpg" alt="Rat Treadmill" onclick="document.getElementById('modal-treadmill').style.display='block'" class="w3-hover-opacity" loading="lazy">
+              </picture>
               <p class="label">BioElectronics Group</p>
           </div>
       </div>
       <div class="column">
           <div class="w3-container">
               <picture>
-              <source srcset="responsive_images/thumb/deliver_only.webp 300w, responsive_images/thumb/deliver_only.webp 640w, responsive_images/thumb/deliver_only.webp 1024w, responsive_images/thumb/deliver_only.webp 1920w, responsive_images/full/deliver_only.webp 2560w" sizes="(max-width: 640px) 50vw, 33vw" type="image/webp">
-              <img src="deliver_only.png" alt="Cardiac Patch" onclick="document.getElementById('modal-patch').style.display='block'" class="w3-hover-opacity" loading="lazy">
-            </picture>
+                <source srcset="responsive_images/thumb/deliver_only.webp 300w, responsive_images/small/deliver_only.webp 640w, responsive_images/medium/deliver_only.webp 1024w, responsive_images/full/deliver_only.webp 2560w" sizes="(max-width: 640px) 50vw, 33vw" type="image/webp">
+                <img src="deliver_only.png" alt="Cardiac Patch" onclick="document.getElementById('modal-patch').style.display='block'" class="w3-hover-opacity" loading="lazy">
+              </picture>
               <p class="label">2.750 - Medical Device Design</p>
           </div>
       </div>
       <div class="column">
         <div class="w3-container">
             <picture>
-              <source srcset="responsive_images/thumb/BioI.webp 300w, responsive_images/small/BioI.webp 640w, responsive_images/medium/BioI.webp 1024w, responsive_images/large/BioI.webp 1920w, responsive_images/full/BioI.webp 2560w" sizes="(max-width: 640px) 50vw, 33vw" type="image/webp">
+              <source srcset="responsive_images/thumb/BioI.webp 300w, responsive_images/small/BioI.webp 640w, responsive_images/medium/BioI.webp 1024w, responsive_images/full/BioI.webp 2560w" sizes="(max-width: 640px) 50vw, 33vw" type="image/webp">
               <img src="BioI.jpg" alt="BioInstrumentation" onclick="document.getElementById('modal-bioI').style.display='block'" class="w3-hover-opacity" loading="lazy">
             </picture>
             <p class="label">BioInstrumentation Lab</p>
@@ -116,25 +116,25 @@
       <div class="column">
           <div class="w3-container">
               <picture>
-              <source srcset="responsive_images/thumb/handle.webp 300w, responsive_images/small/handle.webp 640w, responsive_images/medium/handle.webp 1024w, responsive_images/large/handle.webp 1920w, responsive_images/full/handle.webp 2560w" sizes="(max-width: 640px) 50vw, 33vw" type="image/webp">
-              <img src="handle.JPG" alt="Manus Handle" onclick="document.getElementById('modal-newman').style.display='block'" class="w3-hover-opacity" loading="lazy">
-            </picture>
+                <source srcset="responsive_images/thumb/handle.webp 300w, responsive_images/small/handle.webp 640w, responsive_images/medium/handle.webp 1024w, responsive_images/full/handle.webp 2560w" sizes="(max-width: 640px) 50vw, 33vw" type="image/webp">
+                <img src="handle.JPG" alt="Manus Handle" onclick="document.getElementById('modal-newman').style.display='block'" class="w3-hover-opacity" loading="lazy">
+              </picture>
               <p>Newman Lab</p>
           </div>
       </div>
       <div class="column">
           <div class="w3-container">
               <picture>
-              <source srcset="responsive_images/thumb/laryngoscope.webp 300w, responsive_images/small/laryngoscope.webp 640w, responsive_images/small/laryngoscope.webp 1024w, responsive_images/small/laryngoscope.webp 1920w, responsive_images/full/laryngoscope.webp 2560w" sizes="(max-width: 640px) 50vw, 33vw" type="image/webp">
-              <img src="laryngoscope.jpg" alt="Rat Treadmill" onclick="document.getElementById('modal-ecmo').style.display='block'" class="w3-hover-opacity" loading="lazy">
-            </picture>
+                <source srcset="responsive_images/thumb/laryngoscope.webp 300w, responsive_images/small/laryngoscope.webp 640w, responsive_images/medium/laryngoscope.webp 1024w, responsive_images/full/laryngoscope.webp 2560w" sizes="(max-width: 640px) 50vw, 33vw" type="image/webp">
+                <img src="laryngoscope.jpg" alt="Rat Treadmill" onclick="document.getElementById('modal-ecmo').style.display='block'" class="w3-hover-opacity" loading="lazy">
+              </picture>
               <p>Center for Biomedical Engineering</p>
           </div>
       </div>
       <div class="column">
         <div class="w3-container">
             <picture>
-              <source srcset="responsive_images/thumb/yspLogo.webp 300w, responsive_images/thumb/yspLogo.webp 640w, responsive_images/thumb/yspLogo.webp 1024w, responsive_images/thumb/yspLogo.webp 1920w, responsive_images/full/yspLogo.webp 2560w" sizes="(max-width: 640px) 50vw, 33vw" type="image/webp">
+              <source srcset="responsive_images/thumb/yspLogo.webp 300w, responsive_images/small/yspLogo.webp 640w, responsive_images/medium/yspLogo.webp 1024w, responsive_images/full/yspLogo.webp 2560w" sizes="(max-width: 640px) 50vw, 33vw" type="image/webp">
               <img src="yspLogo.jpg" alt="FSU image" onclick="document.getElementById('modal-ysp').style.display='block'" class="w3-hover-opacity" loading="lazy">
             </picture>
             <p>Florida State University</p>
@@ -175,9 +175,9 @@
           •	Aided in the fabrication of custom neural probes<br>
           •	Implemented a cloud-hosted neural network to perform motion capture video analysis
         </p><br>        <picture>
-            <source srcset="responsive_images/thumb/treadmill.webp 300w, responsive_images/small/treadmill.webp 640w, responsive_images/medium/treadmill.webp 1024w, responsive_images/large/treadmill.webp 1920w, responsive_images/full/treadmill.webp 2560w" sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw" type="image/webp">
-            <img src="treadmill.jpg" style="width:50%; float:left; margin-right:5%" loading="lazy">
-          </picture>
+          <source srcset="optimized/treadmill.webp" type="image/webp">
+          <img src="responsive_images/medium/treadmill.webp" srcset="responsive_images/small/treadmill.webp 640w, responsive_images/medium/treadmill.webp 1024w, responsive_images/large/treadmill.webp 1920w" sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw" style="width:50%; float:left; margin-right:5%" loading="lazy">
+        </picture>
         <p style="display: inline">My project in the Bioelectronics Group, evolved over a couple years and involving a great host of subprojects. 
           The overarching project investigated the potential for light to induce neuro-regeneration in rat models of spinal cord injury. I was initially 
           recruited to design and build a rat treadmill for assessing the recovery of locomotor function. I was responsible for the entire development process, 
@@ -188,9 +188,9 @@
           the engineering design process, from ideation to fabrication and iteration.
         </p>
         <picture>
-            <source srcset="responsive_images/thumb/treadmillCAD.webp 300w, responsive_images/thumb/treadmillCAD.webp 640w, responsive_images/thumb/treadmillCAD.webp 1024w, responsive_images/thumb/treadmillCAD.webp 1920w, responsive_images/full/treadmillCAD.webp 2560w" sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw" type="image/webp">
-            <img src="treadmillCAD.jpg" style="width:40%; float:right; margin-top:5%; margin-left:5%" loading="lazy">
-          </picture>
+          <source srcset="optimized/treadmillCAD.webp" type="image/webp">
+          <img src="responsive_images/medium/treadmillCAD.webp" srcset="responsive_images/small/treadmillCAD.webp 640w, responsive_images/medium/treadmillCAD.webp 1024w, responsive_images/large/treadmillCAD.webp 1920w" sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw" style="width:40%; float:right; margin-top:5%; margin-left:5%" loading="lazy">
+        </picture>
         <p>
           It was my good fortune to get to work with the incredible Dr. Polina Anikeeva and to have a most talented and thoughtful mentor, Dr. Dena Shahriari, who, recognizing 
           my enthusiasm for learning, offered further involvement in the incredibly multidisciplinary project. In addition to engaging in mechanical engineering and design, I 
@@ -228,8 +228,8 @@
         <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
         <h2 class="w3-bottombar">BioInstrumentation Lab</h2><br>        <div style="margin-top: 8px;">
           <picture>
-            <source srcset="responsive_images/thumb/BioI.webp 300w, responsive_images/small/BioI.webp 640w, responsive_images/medium/BioI.webp 1024w, responsive_images/large/BioI.webp 1920w, responsive_images/full/BioI.webp 2560w" sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw" type="image/webp">
-            <img src="BioI.jpg" alt="BioInstrumentation Lab" style="max-width:50%; float:right; margin-left:5%; margin-bottom: 4px;" loading="lazy">
+            <source srcset="optimized/BioI.webp" type="image/webp">
+            <img src="responsive_images/medium/BioI.webp" srcset="responsive_images/small/BioI.webp 640w, responsive_images/medium/BioI.webp 1024w, responsive_images/large/BioI.webp 1920w" sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw" alt="BioInstrumentation Lab" style="max-width:50%; float:right; margin-left:5%; margin-bottom: 4px;" loading="lazy">
           </picture>
           <p style="display: inline;">
             In the Summer of 2019, I traveled to Auckland, New Zealand for a 3 month internship within the BioInstrumentation Lab at the University of Auckland.
@@ -249,9 +249,9 @@
           auditory feedback in control of fine locomotor functions.
         </p><br>
         <picture>
-            <source srcset="responsive_images/thumb/handle.webp 300w, responsive_images/small/handle.webp 640w, responsive_images/medium/handle.webp 1024w, responsive_images/large/handle.webp 1920w, responsive_images/full/handle.webp 2560w" sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw" type="image/webp">
-            <img src="handle.jpg" style="width:50%; float:left; margin-right:5%" loading="lazy">
-          </picture>
+          <source srcset="optimized/handle.webp" type="image/webp">
+          <img src="responsive_images/medium/handle.webp" srcset="responsive_images/small/handle.webp 640w, responsive_images/medium/handle.webp 1024w, responsive_images/large/handle.webp 1920w" sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw" style="width:50%; float:left; margin-right:5%" loading="lazy">
+        </picture>
         <p style="display: inline">My freshman year I managed to get a position in the Newman Biomechanics and 
           Rehabilitation Lab. In this project I adapted a user-machine interface program to process motion parameters 
           into auditory output for an investigation into feedback-mediated locomotor control.<br><br>

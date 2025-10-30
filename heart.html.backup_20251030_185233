@@ -528,23 +528,23 @@
       </p>
       <br>      <div>
           <picture>
-            <source srcset="responsive_images/thumb/hk1.webp 300w, responsive_images/small/hk1.webp 640w, responsive_images/medium/hk1.webp 1024w, responsive_images/large/hk1.webp 1920w, responsive_images/full/hk1.webp 2560w" sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw" type="image/webp">
+            <source srcset="optimized/hk1.webp" type="image/webp">
             <img src="hk1.HEIC" style="max-width:250px" alt="hk1" loading="lazy">
           </picture>
           <picture>
-            <source srcset="responsive_images/thumb/hk2.webp 300w, responsive_images/small/hk2.webp 640w, responsive_images/medium/hk2.webp 1024w, responsive_images/large/hk2.webp 1920w, responsive_images/full/hk2.webp 2560w" sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw" type="image/webp">
+            <source srcset="optimized/hk2.webp" type="image/webp">
             <img src="hk2.HEIC" style="max-width:300px" alt="hk2" loading="lazy">
           </picture>
           <picture>
-            <source srcset="responsive_images/thumb/hk3.webp 300w, responsive_images/small/hk3.webp 640w, responsive_images/medium/hk3.webp 1024w, responsive_images/large/hk3.webp 1920w, responsive_images/full/hk3.webp 2560w" sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw" type="image/webp">
+            <source srcset="optimized/hk3.webp" type="image/webp">
             <img src="hk3.HEIC" style="max-width:250px" alt="hk3" loading="lazy">
           </picture>
           <picture>
-            <source srcset="responsive_images/thumb/hk4.webp 300w, responsive_images/small/hk4.webp 640w, responsive_images/medium/hk4.webp 1024w, responsive_images/large/hk4.webp 1920w, responsive_images/full/hk4.webp 2560w" sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw" type="image/webp">
+            <source srcset="optimized/hk4.webp" type="image/webp">
             <img src="hk4.HEIC" style="max-width:250px" alt="hk4" loading="lazy">
           </picture>
           <picture>
-            <source srcset="responsive_images/thumb/hk5.webp 300w, responsive_images/small/hk5.webp 640w, responsive_images/medium/hk5.webp 1024w, responsive_images/large/hk5.webp 1920w, responsive_images/full/hk5.webp 2560w" sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw" type="image/webp">
+            <source srcset="optimized/hk5.webp" type="image/webp">
             <img src="hk5.HEIC" style="max-width:300px" alt="hk5" loading="lazy">
           </picture>
           <picture>
@@ -566,23 +566,23 @@
       </p>
       <br>      <div>
           <picture>
-            <source srcset="responsive_images/thumb/tokyo1.webp 300w, responsive_images/small/tokyo1.webp 640w, responsive_images/medium/tokyo1.webp 1024w, responsive_images/large/tokyo1.webp 1920w, responsive_images/full/tokyo1.webp 2560w" sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw" type="image/webp">
+            <source srcset="optimized/tokyo1.webp" type="image/webp">
             <img src="tokyo1.HEIC" style="max-width:300px" alt="tokyo1" loading="lazy">
           </picture>
           <picture>
-            <source srcset="responsive_images/thumb/tokyo2.webp 300w, responsive_images/small/tokyo2.webp 640w, responsive_images/medium/tokyo2.webp 1024w, responsive_images/large/tokyo2.webp 1920w, responsive_images/full/tokyo2.webp 2560w" sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw" type="image/webp">
+            <source srcset="optimized/tokyo2.webp" type="image/webp">
             <img src="tokyo2.HEIC" style="max-width:250px" alt="tokyo2" loading="lazy">
           </picture>
           <picture>
-            <source srcset="responsive_images/thumb/tokyo3.webp 300w, responsive_images/small/tokyo3.webp 640w, responsive_images/medium/tokyo3.webp 1024w, responsive_images/large/tokyo3.webp 1920w, responsive_images/full/tokyo3.webp 2560w" sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw" type="image/webp">
+            <source srcset="optimized/tokyo3.webp" type="image/webp">
             <img src="tokyo3.HEIC" style="max-width:250px" alt="tokyo3" loading="lazy">
           </picture>
           <picture>
-            <source srcset="responsive_images/thumb/tokyo4.webp 300w, responsive_images/small/tokyo4.webp 640w, responsive_images/medium/tokyo4.webp 1024w, responsive_images/large/tokyo4.webp 1920w, responsive_images/full/tokyo4.webp 2560w" sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw" type="image/webp">
+            <source srcset="optimized/tokyo4.webp" type="image/webp">
             <img src="tokyo4.HEIC" style="max-width:300px" alt="tokyo4" loading="lazy">
           </picture>
           <picture>
-            <source srcset="responsive_images/thumb/tokyo5.webp 300w, responsive_images/small/tokyo5.webp 640w, responsive_images/medium/tokyo5.webp 1024w, responsive_images/large/tokyo5.webp 1920w, responsive_images/full/tokyo5.webp 2560w" sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw" type="image/webp">
+            <source srcset="optimized/tokyo5.webp" type="image/webp">
             <img src="tokyo5.HEIC" style="max-width:300px" alt="tokyo5" loading="lazy">
           </picture>
           <video width="320" height="240" controls>
@@ -598,11 +598,11 @@
             Your browser does not support the video tag.
           </video>
           <picture>
-            <source srcset="responsive_images/thumb/tokyo9.webp 300w, responsive_images/small/tokyo9.webp 640w, responsive_images/medium/tokyo9.webp 1024w, responsive_images/large/tokyo9.webp 1920w, responsive_images/full/tokyo9.webp 2560w" sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw" type="image/webp">
+            <source srcset="optimized/tokyo9.webp" type="image/webp">
             <img src="tokyo9.HEIC" style="max-width:250px" alt="tokyo9" loading="lazy">
           </picture>
           <picture>
-            <source srcset="responsive_images/thumb/tokyo10.webp 300w, responsive_images/small/tokyo10.webp 640w, responsive_images/medium/tokyo10.webp 1024w, responsive_images/large/tokyo10.webp 1920w, responsive_images/full/tokyo10.webp 2560w" sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw" type="image/webp">
+            <source srcset="optimized/tokyo10.webp" type="image/webp">
             <img src="tokyo10.HEIC" style="max-width:250px" alt="tokyo10" loading="lazy">
           </picture>
       </div>
