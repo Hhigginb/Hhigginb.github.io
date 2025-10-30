@@ -439,7 +439,7 @@
 
     <div id="modal-uke" class="w3-modal w3-animate-zoom" style="justify-content: center; widows: 75%">
       <div class="w3-modal-content w3-white" style="margin-bottom: 10%">
-        <span class="w3-button w3-hover-red w3-xlarge w3-display-topright" onclick="document.getElementById('modal-uke').style.display='none', showDivs(1, 2)">&times;</span>
+        <span class="w3-button w3-hover-red w3-xlarge w3-display-topright" onclick="document.getElementById('modal-uke').style.display='none', showDivs(1, 1)">&times;</span>
         <h2 class="w3-bottombar">Ukulele</h2><br>
         <p>While WWOOFing (World Wide Opportunities on Organic Farms) in the Los Padres Mountains I learned to play the ukulele. 
           When I returned to campus for the Fall semester, I missed playing the uke and decided it would be a fun challenge to build my own ukulele. I figured
@@ -778,53 +778,53 @@
           </div>
         
           <!-- Next and previous buttons -->
-          <a class="prev" onclick="plusDivs(-1, 2)">&#10094;</a>
-          <a class="next" onclick="plusDivs(1, 2)">&#10095;</a>
+          <a class="prev" onclick="plusDivs(-1,1)">&#10094;</a>
+          <a class="next" onclick="plusDivs(1,1)">&#10095;</a>
         </div>
 
         <!-- The dots/circles -->
         <div style="text-align:center">
-          <span class="dot" onclick="showDivs(1, 2)"></span>
-          <span class="dot" onclick="showDivs(2, 2)"></span>
-          <span class="dot" onclick="showDivs(3, 2)"></span>
-          <span class="dot" onclick="showDivs(4, 2)"></span>
-          <span class="dot" onclick="showDivs(5, 2)"></span>
-          <span class="dot" onclick="showDivs(6, 2)"></span>
-          <span class="dot" onclick="showDivs(7, 2)"></span>
-          <span class="dot" onclick="showDivs(8, 2)"></span>
-          <span class="dot" onclick="showDivs(9, 2)"></span>
-          <span class="dot" onclick="showDivs(10, 2)"></span>
-          <span class="dot" onclick="showDivs(11, 2)"></span>
-          <span class="dot" onclick="showDivs(12, 2)"></span>
-          <span class="dot" onclick="showDivs(13, 2)"></span>
-          <span class="dot" onclick="showDivs(14, 2)"></span>
-          <span class="dot" onclick="showDivs(15, 2)"></span>
-          <span class="dot" onclick="showDivs(16, 2)"></span>
-          <span class="dot" onclick="showDivs(17, 2)"></span>
-          <span class="dot" onclick="showDivs(18, 2)"></span>
-          <span class="dot" onclick="showDivs(19, 2)"></span>
-          <span class="dot" onclick="showDivs(20, 2)"></span>
-          <span class="dot" onclick="showDivs(21, 2)"></span>
-          <span class="dot" onclick="showDivs(22, 2)"></span>
-          <span class="dot" onclick="showDivs(23, 2)"></span>
-          <span class="dot" onclick="showDivs(24, 2)"></span>
-          <span class="dot" onclick="showDivs(25, 2)"></span>
-          <span class="dot" onclick="showDivs(26, 2)"></span>
-          <span class="dot" onclick="showDivs(27, 2)"></span>
-          <span class="dot" onclick="showDivs(28, 2)"></span>
-          <span class="dot" onclick="showDivs(29, 2)"></span>
-          <span class="dot" onclick="showDivs(30, 2)"></span>
-          <span class="dot" onclick="showDivs(31, 2)"></span>
-          <span class="dot" onclick="showDivs(32, 2)"></span>
-          <span class="dot" onclick="showDivs(33, 2)"></span>
-          <span class="dot" onclick="showDivs(34, 2)"></span>
-          <span class="dot" onclick="showDivs(35, 2)"></span>
-          <span class="dot" onclick="showDivs(36, 2)"></span>
-          <span class="dot" onclick="showDivs(37, 2)"></span>
-          <span class="dot" onclick="showDivs(38, 2)"></span>
-          <span class="dot" onclick="showDivs(39, 2)"></span>
-          <span class="dot" onclick="showDivs(40, 2)"></span>
-          <span class="dot" onclick="showDivs(41, 2)"></span>
+          <span class="dot" onclick="showDivs(1,1)"></span>
+          <span class="dot" onclick="showDivs(2,1)"></span>
+          <span class="dot" onclick="showDivs(3,1)"></span>
+          <span class="dot" onclick="showDivs(4,1)"></span>
+          <span class="dot" onclick="showDivs(5,1)"></span>
+          <span class="dot" onclick="showDivs(6,1)"></span>
+          <span class="dot" onclick="showDivs(7,1)"></span>
+          <span class="dot" onclick="showDivs(8,1)"></span>
+          <span class="dot" onclick="showDivs(9,1)"></span>
+          <span class="dot" onclick="showDivs(10,1)"></span>
+          <span class="dot" onclick="showDivs(11,1)"></span>
+          <span class="dot" onclick="showDivs(12,1)"></span>
+          <span class="dot" onclick="showDivs(13,1)"></span>
+          <span class="dot" onclick="showDivs(14,1)"></span>
+          <span class="dot" onclick="showDivs(15,1)"></span>
+          <span class="dot" onclick="showDivs(16,1)"></span>
+          <span class="dot" onclick="showDivs(17,1)"></span>
+          <span class="dot" onclick="showDivs(18,1)"></span>
+          <span class="dot" onclick="showDivs(19,1)"></span>
+          <span class="dot" onclick="showDivs(20,1)"></span>
+          <span class="dot" onclick="showDivs(21,1)"></span>
+          <span class="dot" onclick="showDivs(22,1)"></span>
+          <span class="dot" onclick="showDivs(23,1)"></span>
+          <span class="dot" onclick="showDivs(24,1)"></span>
+          <span class="dot" onclick="showDivs(25,1)"></span>
+          <span class="dot" onclick="showDivs(26,1)"></span>
+          <span class="dot" onclick="showDivs(27,1)"></span>
+          <span class="dot" onclick="showDivs(28,1)"></span>
+          <span class="dot" onclick="showDivs(29,1)"></span>
+          <span class="dot" onclick="showDivs(30,1)"></span>
+          <span class="dot" onclick="showDivs(31,1)"></span>
+          <span class="dot" onclick="showDivs(32,1)"></span>
+          <span class="dot" onclick="showDivs(33,1)"></span>
+          <span class="dot" onclick="showDivs(34,1)"></span>
+          <span class="dot" onclick="showDivs(35,1)"></span>
+          <span class="dot" onclick="showDivs(36,1)"></span>
+          <span class="dot" onclick="showDivs(37,1)"></span>
+          <span class="dot" onclick="showDivs(38,1)"></span>
+          <span class="dot" onclick="showDivs(39,1)"></span>
+          <span class="dot" onclick="showDivs(40,1)"></span>
+          <span class="dot" onclick="showDivs(41,1)"></span>
         </div>
 
         <p class="w3-bottombar"></p>

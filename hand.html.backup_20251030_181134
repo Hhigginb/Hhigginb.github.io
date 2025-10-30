@@ -185,7 +185,7 @@
         <p> After having so much fun building my ukulele I couldn't wait to build another instrument! Like the ukulele, many design elements of this bass were inspired by traditional Maori carvings. For instance, the custom shape takes the form of the hei matau (fishhook).
         </p>
         <!--Slideshow-->
-        <div class="slideshow-container slider" id="div1">
+        <div class="slideshow-container slider" id = div1>
 
           <!-- Full-width images with number and caption text -->          <div class="mySlides fade">
             <div class="numbertext">1 / 7</div>
@@ -319,7 +319,7 @@
     </div>
     <div id="modal-rack" class="w3-modal w3-animate-zoom" style="justify-content: center; widows: 75%">
       <div class="w3-modal-content w3-white" style="margin-bottom: 10%">
-        <span class="w3-button w3-hover-red w3-xlarge w3-display-topright" onclick="document.getElementById('modal-rack').style.display='none',showDivs(1, 1)">&times;</span>
+        <span class="w3-button w3-hover-red w3-xlarge w3-display-topright" onclick="document.getElementById('modal-rack').style.display='none',showDivs(1, 0)">&times;</span>
         <h2 class="w3-bottombar">Squat Rack</h2><br>
         <p>While WWOOFing (World Wide Opportunities on Organic Farms) in the Los Padres Mountains I built a squat rack so that I could 
           do some lifting despite the lack of gym access - due to the pandemic and my remote location. The farm I worked on was more of a junkyard with some trees (I say this in 
@@ -331,9 +331,9 @@
           of pipe to prevent the plates from slipping off the ends of the main pipe (barbell).
         </p>
         <!--Slideshow-->
-        <div class="slideshow-container slider" id="div2">
+        <div class="slideshow-container slider" id = div1>
 
-          <!-- Full-width images with number and caption text -->          <div class="mySlides3 fade">
+          <!-- Full-width images with number and caption text -->          <div class="mySlides fade">
             <div class="numbertext">1 / 9</div>
             <picture>
               <source srcset="responsive_images/thumb/rack1.webp 300w, responsive_images/small/rack1.webp 640w, responsive_images/medium/rack1.webp 1024w, responsive_images/large/rack1.webp 1920w, responsive_images/full/rack1.webp 2560w" sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw" type="image/webp">
@@ -342,7 +342,7 @@
             <div class="text">Drilling holes in the Vertical Members for Crash Bars</div>
           </div>
         
-          <div class="mySlides3 fade">
+          <div class="mySlides fade">
             <div class="numbertext">2 / 9</div>
             <picture>
               <source srcset="responsive_images/thumb/rack2.webp 300w, responsive_images/small/rack2.webp 640w, responsive_images/medium/rack2.webp 1024w, responsive_images/large/rack2.webp 1920w, responsive_images/full/rack2.webp 2560w" sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw" type="image/webp">
@@ -351,7 +351,7 @@
             <div class="text">Getting the Frame Squared</div>
           </div>
         
-          <div class="mySlides3 fade">
+          <div class="mySlides fade">
             <div class="numbertext">3 / 9</div>
             <picture>
               <source srcset="responsive_images/thumb/rack3.webp 300w, responsive_images/small/rack3.webp 640w, responsive_images/medium/rack3.webp 1024w, responsive_images/medium/rack3.webp 1920w, responsive_images/full/rack3.webp 2560w" sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw" type="image/webp">
@@ -360,7 +360,7 @@
             <div class="text">Pullup Bar Installation</div>
           </div>
 
-          <div class="mySlides3 fade">
+          <div class="mySlides fade">
             <div class="numbertext">4 / 9</div>
             <picture>
               <source srcset="responsive_images/thumb/rack4.webp 300w, responsive_images/small/rack4.webp 640w, responsive_images/medium/rack4.webp 1024w, responsive_images/large/rack4.webp 1920w, responsive_images/full/rack4.webp 2560w" sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw" type="image/webp">
@@ -369,7 +369,7 @@
             <div class="text">Adding a Coat of Primer so the Rack Will Last</div>
           </div>
         
-          <div class="mySlides3 fade">
+          <div class="mySlides fade">
             <div class="numbertext">5 / 9</div>
             <picture>
               <source srcset="responsive_images/thumb/rack5.webp 300w, responsive_images/small/rack5.webp 640w, responsive_images/medium/rack5.webp 1024w, responsive_images/large/rack5.webp 1920w, responsive_images/full/rack5.webp 2560w" sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw" type="image/webp">
@@ -378,7 +378,7 @@
             <div class="text">"Take chances, make mistakes, get messy!" -Ms. Frizzle</div>
           </div>
 
-          <div class="mySlides3 fade">
+          <div class="mySlides fade">
             <div class="numbertext">6 / 9</div>
             <picture>
               <source srcset="responsive_images/thumb/rack.webp 300w, responsive_images/small/rack.webp 640w, responsive_images/medium/rack.webp 1024w, responsive_images/medium/rack.webp 1920w, responsive_images/full/rack.webp 2560w" sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw" type="image/webp">
@@ -387,7 +387,7 @@
             <div class="text">What a fun paint job! (didn't have one full can of paint so I made do with the leftovers of 3 different cans)</div>
           </div>
         
-          <div class="mySlides3 fade">
+          <div class="mySlides fade">
             <div class="numbertext">7 / 9</div>
             <picture>
               <source srcset="responsive_images/thumb/rack6.webp 300w, responsive_images/small/rack6.webp 640w, responsive_images/medium/rack6.webp 1024w, responsive_images/large/rack6.webp 1920w, responsive_images/full/rack6.webp 2560w" sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw" type="image/webp">
@@ -396,7 +396,7 @@
             <div class="text">Added Pulleys so I Can do Cable Exercises Too</div>
           </div>
 
-          <div class="mySlides3 fade">
+          <div class="mySlides fade">
             <div class="numbertext">8 / 9</div>
             <picture>
               <source srcset="responsive_images/thumb/barbell.webp 300w, responsive_images/small/barbell.webp 640w, responsive_images/medium/barbell.webp 1024w, responsive_images/large/barbell.webp 1920w, responsive_images/full/barbell.webp 2560w" sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw" type="image/webp">
@@ -405,7 +405,7 @@
             <div class="text">Concrete Plates and Water Pipe Barbell</div>
           </div>
         
-          <div class="mySlides3 fade">
+          <div class="mySlides fade">
             <div class="numbertext">9 / 9</div>
             <picture>
               <source srcset="responsive_images/thumb/barbell2.webp 300w, responsive_images/small/barbell2.webp 640w, responsive_images/medium/barbell2.webp 1024w, responsive_images/large/barbell2.webp 1920w, responsive_images/full/barbell2.webp 2560w" sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw" type="image/webp">
@@ -422,15 +422,15 @@
         
         <!-- The dots/circles -->
         <div style="text-align:center">
-          <span class="dot" onclick="showDivs(1,1)"></span>
-          <span class="dot" onclick="showDivs(2,1)"></span>
-          <span class="dot" onclick="showDivs(3,1)"></span>
-          <span class="dot" onclick="showDivs(4,1)"></span>
-          <span class="dot" onclick="showDivs(5,1)"></span>
-          <span class="dot" onclick="showDivs(6,1)"></span>
-          <span class="dot" onclick="showDivs(7,1)"></span>
-          <span class="dot" onclick="showDivs(8,1)"></span>
-          <span class="dot" onclick="showDivs(9,1)"></span>
+          <span class="dot" onclick="showDivs(1,0)"></span>
+          <span class="dot" onclick="showDivs(2,0)"></span>
+          <span class="dot" onclick="showDivs(3,0)"></span>
+          <span class="dot" onclick="showDivs(4,0)"></span>
+          <span class="dot" onclick="showDivs(5,0)"></span>
+          <span class="dot" onclick="showDivs(6,0)"></span>
+          <span class="dot" onclick="showDivs(7,0)"></span>
+          <span class="dot" onclick="showDivs(8,0)"></span>
+          <span class="dot" onclick="showDivs(9,0)"></span>
         </div>
 
         <p class="w3-bottombar"></p>
@@ -439,7 +439,7 @@
 
     <div id="modal-uke" class="w3-modal w3-animate-zoom" style="justify-content: center; widows: 75%">
       <div class="w3-modal-content w3-white" style="margin-bottom: 10%">
-        <span class="w3-button w3-hover-red w3-xlarge w3-display-topright" onclick="document.getElementById('modal-uke').style.display='none', showDivs(1, 2)">&times;</span>
+        <span class="w3-button w3-hover-red w3-xlarge w3-display-topright" onclick="document.getElementById('modal-uke').style.display='none', showDivs(1, 1)">&times;</span>
         <h2 class="w3-bottombar">Ukulele</h2><br>
         <p>While WWOOFing (World Wide Opportunities on Organic Farms) in the Los Padres Mountains I learned to play the ukulele. 
           When I returned to campus for the Fall semester, I missed playing the uke and decided it would be a fun challenge to build my own ukulele. I figured
@@ -451,7 +451,7 @@
         </p>
 
         <!--Slideshow-->
-        <div class="slideshow-container" id="div3">
+        <div class="slideshow-container" id=div2>
 
           <!-- Full-width images with number and caption text -->          <div class="mySlides2 fade">
             <div class="numbertext">1 / 41</div>
@@ -778,53 +778,53 @@
           </div>
         
           <!-- Next and previous buttons -->
-          <a class="prev" onclick="plusDivs(-1, 2)">&#10094;</a>
-          <a class="next" onclick="plusDivs(1, 2)">&#10095;</a>
+          <a class="prev" onclick="plusDivs(-1,1)">&#10094;</a>
+          <a class="next" onclick="plusDivs(1,1)">&#10095;</a>
         </div>
 
         <!-- The dots/circles -->
         <div style="text-align:center">
-          <span class="dot" onclick="showDivs(1, 2)"></span>
-          <span class="dot" onclick="showDivs(2, 2)"></span>
-          <span class="dot" onclick="showDivs(3, 2)"></span>
-          <span class="dot" onclick="showDivs(4, 2)"></span>
-          <span class="dot" onclick="showDivs(5, 2)"></span>
-          <span class="dot" onclick="showDivs(6, 2)"></span>
-          <span class="dot" onclick="showDivs(7, 2)"></span>
-          <span class="dot" onclick="showDivs(8, 2)"></span>
-          <span class="dot" onclick="showDivs(9, 2)"></span>
-          <span class="dot" onclick="showDivs(10, 2)"></span>
-          <span class="dot" onclick="showDivs(11, 2)"></span>
-          <span class="dot" onclick="showDivs(12, 2)"></span>
-          <span class="dot" onclick="showDivs(13, 2)"></span>
-          <span class="dot" onclick="showDivs(14, 2)"></span>
-          <span class="dot" onclick="showDivs(15, 2)"></span>
-          <span class="dot" onclick="showDivs(16, 2)"></span>
-          <span class="dot" onclick="showDivs(17, 2)"></span>
-          <span class="dot" onclick="showDivs(18, 2)"></span>
-          <span class="dot" onclick="showDivs(19, 2)"></span>
-          <span class="dot" onclick="showDivs(20, 2)"></span>
-          <span class="dot" onclick="showDivs(21, 2)"></span>
-          <span class="dot" onclick="showDivs(22, 2)"></span>
-          <span class="dot" onclick="showDivs(23, 2)"></span>
-          <span class="dot" onclick="showDivs(24, 2)"></span>
-          <span class="dot" onclick="showDivs(25, 2)"></span>
-          <span class="dot" onclick="showDivs(26, 2)"></span>
-          <span class="dot" onclick="showDivs(27, 2)"></span>
-          <span class="dot" onclick="showDivs(28, 2)"></span>
-          <span class="dot" onclick="showDivs(29, 2)"></span>
-          <span class="dot" onclick="showDivs(30, 2)"></span>
-          <span class="dot" onclick="showDivs(31, 2)"></span>
-          <span class="dot" onclick="showDivs(32, 2)"></span>
-          <span class="dot" onclick="showDivs(33, 2)"></span>
-          <span class="dot" onclick="showDivs(34, 2)"></span>
-          <span class="dot" onclick="showDivs(35, 2)"></span>
-          <span class="dot" onclick="showDivs(36, 2)"></span>
-          <span class="dot" onclick="showDivs(37, 2)"></span>
-          <span class="dot" onclick="showDivs(38, 2)"></span>
-          <span class="dot" onclick="showDivs(39, 2)"></span>
-          <span class="dot" onclick="showDivs(40, 2)"></span>
-          <span class="dot" onclick="showDivs(41, 2)"></span>
+          <span class="dot" onclick="showDivs(1,1)"></span>
+          <span class="dot" onclick="showDivs(2,1)"></span>
+          <span class="dot" onclick="showDivs(3,1)"></span>
+          <span class="dot" onclick="showDivs(4,1)"></span>
+          <span class="dot" onclick="showDivs(5,1)"></span>
+          <span class="dot" onclick="showDivs(6,1)"></span>
+          <span class="dot" onclick="showDivs(7,1)"></span>
+          <span class="dot" onclick="showDivs(8,1)"></span>
+          <span class="dot" onclick="showDivs(9,1)"></span>
+          <span class="dot" onclick="showDivs(10,1)"></span>
+          <span class="dot" onclick="showDivs(11,1)"></span>
+          <span class="dot" onclick="showDivs(12,1)"></span>
+          <span class="dot" onclick="showDivs(13,1)"></span>
+          <span class="dot" onclick="showDivs(14,1)"></span>
+          <span class="dot" onclick="showDivs(15,1)"></span>
+          <span class="dot" onclick="showDivs(16,1)"></span>
+          <span class="dot" onclick="showDivs(17,1)"></span>
+          <span class="dot" onclick="showDivs(18,1)"></span>
+          <span class="dot" onclick="showDivs(19,1)"></span>
+          <span class="dot" onclick="showDivs(20,1)"></span>
+          <span class="dot" onclick="showDivs(21,1)"></span>
+          <span class="dot" onclick="showDivs(22,1)"></span>
+          <span class="dot" onclick="showDivs(23,1)"></span>
+          <span class="dot" onclick="showDivs(24,1)"></span>
+          <span class="dot" onclick="showDivs(25,1)"></span>
+          <span class="dot" onclick="showDivs(26,1)"></span>
+          <span class="dot" onclick="showDivs(27,1)"></span>
+          <span class="dot" onclick="showDivs(28,1)"></span>
+          <span class="dot" onclick="showDivs(29,1)"></span>
+          <span class="dot" onclick="showDivs(30,1)"></span>
+          <span class="dot" onclick="showDivs(31,1)"></span>
+          <span class="dot" onclick="showDivs(32,1)"></span>
+          <span class="dot" onclick="showDivs(33,1)"></span>
+          <span class="dot" onclick="showDivs(34,1)"></span>
+          <span class="dot" onclick="showDivs(35,1)"></span>
+          <span class="dot" onclick="showDivs(36,1)"></span>
+          <span class="dot" onclick="showDivs(37,1)"></span>
+          <span class="dot" onclick="showDivs(38,1)"></span>
+          <span class="dot" onclick="showDivs(39,1)"></span>
+          <span class="dot" onclick="showDivs(40,1)"></span>
+          <span class="dot" onclick="showDivs(41,1)"></span>
         </div>
 
         <p class="w3-bottombar"></p>
@@ -1375,11 +1375,10 @@
     </div>
     
     <script>
-      var slideIndex = [1,1,1];
-      var slideId = ["mySlides", "mySlides3", "mySlides2"]
+      var slideIndex = [1,1];
+      var slideId = ["mySlides", "mySlides2"]
       showDivs(1, 0);
       showDivs(1, 1);
-      showDivs(1, 2);
       
       function plusDivs(n, no) {
         showDivs(slideIndex[no] += n, no);
