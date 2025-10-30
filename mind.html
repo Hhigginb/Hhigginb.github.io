@@ -3,6 +3,11 @@
 <title>Haley Higginbotham</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="icon" href="/favicon.ico">
+<link rel="manifest" href="/site.webmanifest">
 <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap"> 
@@ -63,52 +68,75 @@
     
     <h3 id="research" class="w3-section w3-bottombar w3-padding-16"><b>Research</b></h3>
     <!-- Research Gallery Grid -->
-    <div class="row">
-      <div class="column">
+    <div class="row">      <div class="column">
         <div class="w3-container">
-            <img src="nmrmag.jpg" alt="NMR Sensor" onclick="document.getElementById('modal-nmr').style.display='block'" class="w3-hover-opacity">
+            <picture>
+              <source srcset="optimized/nmrmag.webp" type="image/webp">
+              <img src="nmrmag.jpg" alt="NMR Sensor" onclick="document.getElementById('modal-nmr').style.display='block'" class="w3-hover-opacity" loading="lazy">
+            </picture>
             <p class="label">Cima Lab</p>
         </div>
       </div>
       <div class="column">
           <div class="w3-container">
-              <img src="nervestim.jpg" alt="Nerve Stimulation" onclick="document.getElementById('modal-nervestim').style.display='block'"  class="w3-hover-opacity">
+              <picture>
+                <source srcset="optimized/nervestim.webp" type="image/webp">
+                <img src="nervestim.jpg" alt="Nerve Stimulation" onclick="document.getElementById('modal-nervestim').style.display='block'" class="w3-hover-opacity" loading="lazy">
+              </picture>
               <p class="label">Langer/Traverso Lab</p>
           </div>
       </div>
       <div class="column">
           <div class="w3-container">
-              <img src="treadmill.JPG" alt="Rat Treadmill" onclick="document.getElementById('modal-treadmill').style.display='block'" class="w3-hover-opacity">
+              <picture>
+                <source srcset="optimized/treadmill.webp" type="image/webp">
+                <img src="treadmill.JPG" alt="Rat Treadmill" onclick="document.getElementById('modal-treadmill').style.display='block'" class="w3-hover-opacity" loading="lazy">
+              </picture>
               <p class="label">BioElectronics Group</p>
           </div>
       </div>
       <div class="column">
           <div class="w3-container">
-              <img src="deliver_only.png" alt="Cardiac Patch" onclick="document.getElementById('modal-patch').style.display='block'"  class="w3-hover-opacity">
+              <picture>
+                <source srcset="optimized/deliver_only.webp" type="image/webp">
+                <img src="deliver_only.png" alt="Cardiac Patch" onclick="document.getElementById('modal-patch').style.display='block'" class="w3-hover-opacity" loading="lazy">
+              </picture>
               <p class="label">2.750 - Medical Device Design</p>
           </div>
       </div>
       <div class="column">
         <div class="w3-container">
-            <img src="BioI.jpg" alt="BioInstrumentation" onclick="document.getElementById('modal-bioI').style.display='block'" class="w3-hover-opacity">
+            <picture>
+              <source srcset="optimized/BioI.webp" type="image/webp">
+              <img src="BioI.jpg" alt="BioInstrumentation" onclick="document.getElementById('modal-bioI').style.display='block'" class="w3-hover-opacity" loading="lazy">
+            </picture>
             <p class="label">BioInstrumentation Lab</p>
         </div>
       </div>
       <div class="column">
           <div class="w3-container">
-              <img src="handle.JPG" alt="Manus Handle" onclick="document.getElementById('modal-newman').style.display='block'" class="w3-hover-opacity">
+              <picture>
+                <source srcset="optimized/handle.webp" type="image/webp">
+                <img src="handle.JPG" alt="Manus Handle" onclick="document.getElementById('modal-newman').style.display='block'" class="w3-hover-opacity" loading="lazy">
+              </picture>
               <p>Newman Lab</p>
           </div>
       </div>
       <div class="column">
           <div class="w3-container">
-              <img src="laryngoscope.jpg" alt="Rat Treadmill" onclick="document.getElementById('modal-ecmo').style.display='block'" class="w3-hover-opacity">
+              <picture>
+                <source srcset="optimized/laryngoscope.webp" type="image/webp">
+                <img src="laryngoscope.jpg" alt="Rat Treadmill" onclick="document.getElementById('modal-ecmo').style.display='block'" class="w3-hover-opacity" loading="lazy">
+              </picture>
               <p>Center for Biomedical Engineering</p>
           </div>
       </div>
       <div class="column">
         <div class="w3-container">
-            <img src="yspLogo.jpg" alt="FSU image" onclick="document.getElementById('modal-ysp').style.display='block'" class="w3-hover-opacity">
+            <picture>
+              <source srcset="optimized/yspLogo.webp" type="image/webp">
+              <img src="yspLogo.jpg" alt="FSU image" onclick="document.getElementById('modal-ysp').style.display='block'" class="w3-hover-opacity" loading="lazy">
+            </picture>
             <p>Florida State University</p>
             <!-- Epigenetics Modulation with Purmorphamine -->
         </div>
@@ -146,8 +174,10 @@
           •	Built a treadmill and trained rats and mice in order to investigate the recovery of locomotor function after spinal cord injury<br>
           •	Aided in the fabrication of custom neural probes<br>
           •	Implemented a cloud-hosted neural network to perform motion capture video analysis
-        </p><br>
-        <img src="treadmill.JPG" style="width:50%; float:left; margin-right:5%">
+        </p><br>        <picture>
+          <source srcset="optimized/treadmill.webp" type="image/webp">
+          <img src="treadmill.JPG" style="width:50%; float:left; margin-right:5%" loading="lazy">
+        </picture>
         <p style="display: inline">My project in the Bioelectronics Group, evolved over a couple years and involving a great host of subprojects. 
           The overarching project investigated the potential for light to induce neuro-regeneration in rat models of spinal cord injury. I was initially 
           recruited to design and build a rat treadmill for assessing the recovery of locomotor function. I was responsible for the entire development process, 
@@ -157,7 +187,10 @@
           a solution - creating a convex surface for the belt pulley to generate differential tensions resulting in a self-centering system. This experience was great practice in 
           the engineering design process, from ideation to fabrication and iteration.
         </p>
-        <img src="treadmillCAD.JPG" style="width:40%; float:right; margin-top:5%; margin-left:5%">
+        <picture>
+          <source srcset="optimized/treadmillCAD.webp" type="image/webp">
+          <img src="treadmillCAD.JPG" style="width:40%; float:right; margin-top:5%; margin-left:5%" loading="lazy">
+        </picture>
         <p>
           It was my good fortune to get to work with the incredible Dr. Polina Anikeeva and to have a most talented and thoughtful mentor, Dr. Dena Shahriari, who, recognizing 
           my enthusiasm for learning, offered further involvement in the incredibly multidisciplinary project. In addition to engaging in mechanical engineering and design, I 
@@ -193,9 +226,11 @@
     <div id="modal-bioI" class="w3-modal w3-animate-zoom" onclick="this.style.display='none'" style="justify-content: center; widows: 75%">
       <div class="box w3-modal-content w3-white" style="margin-bottom: 10%">
         <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
-        <h2 class="w3-bottombar">BioInstrumentation Lab</h2><br>
-        <div style="margin-top: 8px;">
-          <img src="BioI.jpg" alt="BioInstrumentation Lab" style="max-width:50%; float:right; margin-left:5%; margin-bottom: 4px;">
+        <h2 class="w3-bottombar">BioInstrumentation Lab</h2><br>        <div style="margin-top: 8px;">
+          <picture>
+            <source srcset="optimized/BioI.webp" type="image/webp">
+            <img src="BioI.jpg" alt="BioInstrumentation Lab" style="max-width:50%; float:right; margin-left:5%; margin-bottom: 4px;" loading="lazy">
+          </picture>
           <p style="display: inline;">
             In the Summer of 2019, I traveled to Auckland, New Zealand for a 3 month internship within the BioInstrumentation Lab at the University of Auckland.
             My lab was located within the Auckland BioEngineering House (pictured).
@@ -213,7 +248,10 @@
           I Used LabView to interface with a therapeutic robot’s FPGA controller and adapt the robot to provide a platform for investigating 
           auditory feedback in control of fine locomotor functions.
         </p><br>
-        <img src="handle.JPG" style="width:50%; float:left; margin-right:5%">
+        <picture>
+          <source srcset="optimized/handle.webp" type="image/webp">
+          <img src="handle.JPG" style="width:50%; float:left; margin-right:5%" loading="lazy">
+        </picture>
         <p style="display: inline">My freshman year I managed to get a position in the Newman Biomechanics and 
           Rehabilitation Lab. In this project I adapted a user-machine interface program to process motion parameters 
           into auditory output for an investigation into feedback-mediated locomotor control.<br><br>
