@@ -1,0 +1,26 @@
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Test output folders
+optimized_test/
+
+# Node modules (if you ever add them)
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+.vscode/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+*.log
