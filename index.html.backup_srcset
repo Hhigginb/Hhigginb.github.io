@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<title>Haley Higginbotham</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap"> 
+<link rel="stylesheet" href="mystyle.css">
+
+<body>
+<!-- Overlay effect when opening sidebar on small screens -->
+<!-- <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div> -->
+
+  <!-- Navigation Bar -->
+  <div class="navbar">
+    <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button"> HOME
+      <i class="fa fa-home fa-fw w3-margin-right"></i>
+    </a>
+    <div class="dropdown">
+      <button class="dropbtn">MIND 
+        <i class="fa fa-brain fa-fw w3-margin-right"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="mind.html#courses" onclick="w3_close()" class="w3-bar-item w3-button w3-padding">Courses</a>
+        <a href="mind.html#research" onclick="w3_close()" class="w3-bar-item w3-button w3-padding">Research</a> 
+        <!-- <a href="#bookcase" onclick="w3_close()" class="w3-bar-item w3-button w3-padding">Bookcase</a> -->
+      </div>
+    </div> 
+    <div class="dropdown">
+      <button class="dropbtn">HAND 
+        <i class="fa fa-fist-raised fa-fw w3-margin-right"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="hand.html#projects" onclick="w3_close()" class="w3-bar-item w3-button w3-padding">Projects</a> 
+        <a href="hand.html#athletics" onclick="w3_close()" class="w3-bar-item w3-button w3-padding">Athletics</a>
+      </div>
+    </div> 
+    <div class="dropdown">
+      <button class="dropbtn">HEART 
+        <i class="fa fa-heart fa-fw w3-margin-right"></i>
+      </button>
+      <div class="dropdown-content">
+        <a href="heart.html#outreach" onclick="w3_close()" class="w3-bar-item w3-button w3-padding">Outreach</a> 
+        <a href="heart.html#adventures" onclick="w3_close()" class="w3-bar-item w3-button w3-padding">Adventures</a>
+      </div>
+    </div> 
+  </div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main">
+  <div class="w3-container w3-black" style="margin-left:5%; margin-right:5%; margin-top: 5%">
+    <!-- Header -->
+    <header id="about">
+      <h1>HALEY HIGGINBOTHAM</h1>
+    </header>    <!-- About -->
+    <div class="w3-row-padding w3-padding-16" id="about">
+      <picture>
+        <source srcset="responsive_images/thumb/pic222.webp 300w, responsive_images/small/pic222.webp 640w, responsive_images/medium/pic222.webp 1024w, responsive_images/full/pic222.webp 2560w" sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw" type="image/webp">
+        <img src="pic222.jpg" alt="Me" style="width:40%; float:left; margin-right:5%" loading="eager">
+      </picture>
+      <p style="display: inline;">Hi there! I am a Mechanical Engineering PhD student at MIT with an unquenchable enthusiasm for creating. Through my coursework, research, and
+        personal projects I have gained, not only a solid foundation in engineering principles, but also 
+        in-depth experience in designing and manufacturing effective and efficient products at the interface of biological 
+        and synthetic systems. I aspire to a career in medical device development where I can engage 
+        my creativity and passion for engineering to a meaningful end by improving healthcare.
+      </p>
+
+      <!--<p>UPDATE: I have just been accepted to MIT's Graduate Program in the Mechanical Engineering Department! In this program I will continue my studies 
+        to explore and advance device development while conducting research within the Therapeutic Technology Design & Development Lab.
+      </p>-->
+    </div>
+    <div class="w3-row-padding" id="about">
+        <p>
+          I strive to grow stronger every day by engaging my Mind, Hands, and Heart - an adaptation of the MIT motto: Mens et Manus (Mind and Hand).
+          <h3 style="display:inline">Mind</h3>: education through <a href="mind.html#courses" onclick="w3_close()"><h5>courses</h5></a>
+          and <a href="mind.html#research" onclick="w3_close()"><h5>research experiences</h5></a> to grow stronger intellectually <br>
+          <h3 style="display:inline">Hand</h3>: experiential learning in my <a href="hand.html#projects" onclick="w3_close()"><h5>projects</h5></a> and 
+          <a href="hand.html#athletics" onclick="w3_close()"><h5>athletics</h5></a> to grow stronger physically <br>
+          <h3 style="display:inline">Heart</h3>: <a href="heart.html#outreach" onclick="w3_close()"><h5>outreach</h5></a> and other <a href="heart.html#adventures" 
+          onclick="w3_close()"><h5>adventures</h5></a> to grow stronger spiritually
+        </p>
+    </div>
+
+    <div class="w3-container w3-padding-large" style="margin-bottom:32px">
+      <!-- Resume -->
+      <h4 id="resume" class="w3-section w3-bottombar w3-padding-16"><b>Resume</b></h4>
+      <p>
+        <button class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom">
+          <a href="resumeHHigginbotham.pdf" onclick="w3_close()" class="w3-bar-item w3-button w3-padding">
+            <i class="fa fa-download w3-margin-right"></i>Download Resume
+          </a>
+        </button>
+        <button class="w3-button w3-dark-grey w3-padding-large w3-margin-top w3-margin-bottom">
+          <a href="cvHHigginbotham.pdf" onclick="w3_close()" class="w3-bar-item w3-button w3-padding">
+            <i class="fa fa-download w3-margin-right"></i>Download CV
+          </a>
+        </button>
+      </p>
+    </div>
+    
+    <!-- Contact Section -->
+    <div class="w3-container w3-padding-large w3-grey">
+      <h4 id="contact" class="w3-text-black"><b>Contact Me</b></h4>
+      <div class="w3-row-padding w3-center w3-padding-24" style="margin:0 -16px">
+        <div class="w3-third w3-dark-grey">
+          <p><i class="fa fa-envelope w3-xxlarge w3-text-light-grey"></i></p>
+          <p>hhigginb@mit.edu</p>
+        </div>
+        <div class="w3-third w3-red">
+          <p><i class="fa fa-map-marker w3-xxlarge w3-text-light-grey"></i></p>
+          <p>Cambridge, MA</p>
+        </div>
+        <div class="w3-third w3-dark-grey">
+          <p><i class="fa fa-phone w3-xxlarge w3-text-light-grey"></i></p>
+          <p>(321)-986-9007</p>
+        </div>
+      </div>
+      <hr class="w3-opacity">
+    </div>
+  </div>
+
+<!-- End page content -->
+</div>
+
+</body>
+</html>
