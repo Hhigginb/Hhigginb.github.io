@@ -68,7 +68,17 @@
     
     <h3 id="research" class="w3-section w3-bottombar w3-padding-16"><b>Research</b></h3>
     <!-- Research Gallery Grid -->
-    <div class="row">      <div class="column">
+    <div class="row">
+      <div class="column">
+        <div class="w3-container">
+            <picture>
+              <source srcset="responsive_images/thumb/lab2025.webp 300w, responsive_images/small/lab2025.webp 640w, responsive_images/small/lab2025.webp 1024w, responsive_images/small/lab2025.webp 1920w, responsive_images/full/lab2025.webp 2560w" sizes="(max-width: 640px) 50vw, 33vw" type="image/webp">
+              <img src="lab2025.jpeg" alt="Roche Lab" onclick="document.getElementById('modal-shock').style.display='block'" class="w3-hover-opacity" loading="lazy">
+            </picture>
+            <p class="label">Roche Lab</p>
+        </div>
+      </div>
+      <div class="column">
         <div class="w3-container">
             <picture>
               <source srcset="responsive_images/thumb/nmrmag.webp 300w, responsive_images/small/nmrmag.webp 640w, responsive_images/small/nmrmag.webp 1024w, responsive_images/small/nmrmag.webp 1920w, responsive_images/full/nmrmag.webp 2560w" sizes="(max-width: 640px) 50vw, 33vw" type="image/webp">
@@ -144,13 +154,24 @@
     </div>
 
     <!-- Modals -->
+    <div id="modal-shock" class="w3-modal w3-animate-zoom" onclick="this.style.display='none'" style="justify-content: center; widows: 75%">
+      <div class="w3-modal-content w3-white" style="margin-bottom: 10%">
+        <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+        <h2 class="w3-bottombar">Roche Lab</h2><br><br>
+        <p style="display: inline">I joined the Roche Lab in the summer of 2025, where I began my PhD research on the design and development of a novel device for 
+          early, automated hemodynamic shock detection for low-resource settings. This project is motivated by the high mortality rate associated with late shock detection, particularly in low-resource settings, 
+          where access to advanced monitoring equipment and trained clinicians is limited. My work is funded through the Global Engineering and Research (GEAR) Center: 
+        <a href="https://www.gear.mit.edu/haley-higginbotham">link to GEAR profile </a>.
+        <p class="w3-bottombar"></p>
+      </div>
+    </div>
     <div id="modal-nmr" class="w3-modal w3-animate-zoom" onclick="this.style.display='none'" style="justify-content: center; widows: 75%">
       <div class="w3-modal-content w3-white" style="margin-bottom: 10%">
         <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
         <h2 class="w3-bottombar">Cima Lab</h2><br><br>
-        <p style="display: inline">I have been a graduate student in the Cima Lab since 2021. For my Master's thesis, I explored the design of an implantable nanofluidic for sampling the neuropeptides from cranial ISF: 
+        <p style="display: inline">I completed my Master's thesis in the Cima Lab, where I explored the design of an implantable nanofluidic pump for sampling the neuropeptides from cranial ISF: 
         <a href="https://dspace.mit.edu/handle/1721.1/155875">link to thesis </a> (requires MIT certificates).
-        <p style="display: inline"> For my PhD, I have been working on the development of a novel NMR sensor for detection of fluid status. We are currently testing the device in clinical studies with dialysis patients. For more information on this project see the Cima Lab website: 
+        <p style="display: inline"> For the first year of my PhD, I worked on the development of a novel NMR sensor for detection of fluid status. We are currently testing the device in clinical studies with dialysis patients. For more information on this project see the Cima Lab website: 
           <a href="https://cima-lab.mit.edu/research/hydration_sensor/">link to NMR project details</a>
         </p>
         <p class="w3-bottombar"></p>
@@ -178,7 +199,7 @@
             <source srcset="responsive_images/thumb/treadmill.webp 300w, responsive_images/small/treadmill.webp 640w, responsive_images/medium/treadmill.webp 1024w, responsive_images/large/treadmill.webp 1920w, responsive_images/full/treadmill.webp 2560w" sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw" type="image/webp">
             <img src="treadmill.jpg" style="width:50%; float:left; margin-right:5%" loading="lazy">
           </picture>
-        <p style="display: inline">My project in the Bioelectronics Group, evolved over a couple years and involving a great host of subprojects. 
+        <p style="display: inline">My project in the Bioelectronics Group evolved over a couple years, involving a great host of subprojects. 
           The overarching project investigated the potential for light to induce neuro-regeneration in rat models of spinal cord injury. I was initially 
           recruited to design and build a rat treadmill for assessing the recovery of locomotor function. I was responsible for the entire development process, 
           from background research, to design, fabrication, and testing. I created CAD models and fabricated my designs with a laser cutter and lathe. I also sourced 
